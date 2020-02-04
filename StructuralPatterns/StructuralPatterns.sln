@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{0FB94E63-C092-4EFF-916E-44D483672F0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{0FB94E63-C092-4EFF-916E-44D483672F0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{0B20F027-5530-450B-BB7F-4B150E735CE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{0B20F027-5530-450B-BB7F-4B150E735CE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{5C5C6F60-D878-4626-8BED-64CCE8B3D571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{5C5C6F60-D878-4626-8BED-64CCE8B3D571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{AED39044-0041-4D54-BF46-CF33120C9CD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{AED39044-0041-4D54-BF46-CF33120C9CD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{F02F3244-7E6E-4E4A-B9D3-301C237B0109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{F02F3244-7E6E-4E4A-B9D3-301C237B0109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{380510BC-61D9-4D47-8F17-AB29C75A512D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F02F3244-7E6E-4E4A-B9D3-301C237B0109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F02F3244-7E6E-4E4A-B9D3-301C237B0109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F02F3244-7E6E-4E4A-B9D3-301C237B0109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380510BC-61D9-4D47-8F17-AB29C75A512D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380510BC-61D9-4D47-8F17-AB29C75A512D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380510BC-61D9-4D47-8F17-AB29C75A512D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380510BC-61D9-4D47-8F17-AB29C75A512D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
