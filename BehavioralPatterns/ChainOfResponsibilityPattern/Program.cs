@@ -6,7 +6,7 @@
         {
             Approver temaLead = new TeamLead();
             Approver vicePresident = new VicePresident();
-            Approver president = new President();
+            Approver president = new President(); 
 
             temaLead.SetSuccessor(vicePresident);
             vicePresident.SetSuccessor(president);
