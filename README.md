@@ -1,4 +1,4 @@
-# Design-Patterns
+# Software Design Patterns
 Implementations and demos of most popular creational, behavioral and structural software design patterns.
 
 ## Creational Design Patterns
@@ -10,7 +10,7 @@ Implementations and demos of most popular creational, behavioral and structural 
 - Simple Factory Pattern
 - Singleton Pattern
 
-## Structural Patterns
+## Structural Design Patterns
 - Adapter Pattern
 - Bridge Pattern
 - Composite Pattern
@@ -18,3 +18,16 @@ Implementations and demos of most popular creational, behavioral and structural 
 - Facade Pattern
 - Flyweight Pattern
 - Proxy Pattern
+
+## Behavioral Design Patterns
+- Chain Of Responsibility Pattern
+- Command Pattern
+- Interpreter Pattern
+- Iterator Pattern
+- Mediator Pattern
+- Memento Pattern
+- Observer Pattern
+- State Pattern
+- Strategy Pattern
+- Template Method Pattern
+- Visitor Pattern
