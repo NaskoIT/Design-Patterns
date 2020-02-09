@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoPattern", "MementoPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{4C07BF23-5D33-4DA0-BE0D-7D8BB168F10E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPattern", "InterpreterPattern\InterpreterPattern.csproj", "{B18F2FA6-E3A3-4685-B1EB-0EFE6CB829BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{4C07BF23-5D33-4DA0-BE0D-7D8BB168F10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C07BF23-5D33-4DA0-BE0D-7D8BB168F10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C07BF23-5D33-4DA0-BE0D-7D8BB168F10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18F2FA6-E3A3-4685-B1EB-0EFE6CB829BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18F2FA6-E3A3-4685-B1EB-0EFE6CB829BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18F2FA6-E3A3-4685-B1EB-0EFE6CB829BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18F2FA6-E3A3-4685-B1EB-0EFE6CB829BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
