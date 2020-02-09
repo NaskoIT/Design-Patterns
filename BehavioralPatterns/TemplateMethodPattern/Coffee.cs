@@ -6,12 +6,12 @@ namespace TemplateMethodPattern
     {
         public override void AddSpices()
         {
-            Console.WriteLine("Add coffee spices!");
+            Console.WriteLine("Add cream to the coffee!");
         }
 
         public override void Brew()
         {
-            Console.WriteLine("Coffee is brewed!");
+            Console.WriteLine("Add coffee grains in the water!");
         }
     }
 }
