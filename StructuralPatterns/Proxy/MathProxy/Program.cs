@@ -1,4 +1,4 @@
-﻿namespace ProxyPattern
+﻿namespace MathProxy
 {
     using System;
 

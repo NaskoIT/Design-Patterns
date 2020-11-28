@@ -1,4 +1,4 @@
-﻿namespace BridgePattern
+﻿namespace FAQ
 {
     public interface IFormatter
     {

@@ -1,4 +1,4 @@
-﻿namespace BridgePattern
+﻿namespace FAQ
 {
     public class FancyFormatter : IFormatter
     {

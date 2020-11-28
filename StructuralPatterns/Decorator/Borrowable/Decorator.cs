@@ -1,4 +1,4 @@
-﻿namespace DecoratorPattern
+﻿namespace Borrowable
 {
     /// <summary>
     ///  The 'Decorator' abstract class

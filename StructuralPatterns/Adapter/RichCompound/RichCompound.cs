@@ -1,4 +1,4 @@
-﻿namespace AdapterPattern
+﻿namespace RichCompound
 {
     using System;
 

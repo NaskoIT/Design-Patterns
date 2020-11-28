@@ -1,4 +1,4 @@
-﻿namespace AdapterPattern
+﻿namespace RichCompound
 {
     /// <summary>
     /// The 'Adapter' interface

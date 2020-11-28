@@ -1,4 +1,4 @@
-﻿namespace BridgePattern
+﻿namespace FAQ
 {
     using System;
     using System.Collections.Generic;

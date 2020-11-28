@@ -1,4 +1,4 @@
-﻿namespace CompositePattern
+﻿namespace Employee
 {
     /// <summary>
     /// The 'Leaf' class

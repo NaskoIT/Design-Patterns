@@ -1,4 +1,4 @@
-﻿namespace DecoratorPattern
+﻿namespace Borrowable
 {
     using System;
     using System.Collections.Generic;

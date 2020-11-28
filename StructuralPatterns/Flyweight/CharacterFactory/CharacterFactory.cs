@@ -1,4 +1,4 @@
-﻿namespace FlyweightPattern
+﻿namespace CharacterFactory
 {
     using System.Collections.Generic;
     

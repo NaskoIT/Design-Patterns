@@ -1,4 +1,4 @@
-﻿namespace FlyweightPattern
+﻿namespace CharacterFactory
 {
     /// <summary>
     /// The 'Concrete Flyweight' class
