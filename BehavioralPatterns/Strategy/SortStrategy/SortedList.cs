@@ -1,4 +1,4 @@
-﻿namespace StrategyPattern
+﻿namespace SortStrategy
 {
     using System.Collections.Generic;
 

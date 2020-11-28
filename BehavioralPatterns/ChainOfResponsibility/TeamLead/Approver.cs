@@ -1,4 +1,4 @@
-﻿namespace ChainOfResponsibilityPattern
+﻿namespace TeamLead
 {
     /// <summary>
     /// The 'Handler' abstract class

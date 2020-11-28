@@ -1,4 +1,4 @@
-﻿namespace MediatorPattern
+﻿namespace ChatRoom
 {
     /// <summary>
     /// The 'ConcreteColleague' class

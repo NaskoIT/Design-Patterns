@@ -1,4 +1,4 @@
-﻿namespace ChainOfResponsibilityPattern
+﻿namespace TeamLead
 {
     /// <summary>
     /// Class holding request details

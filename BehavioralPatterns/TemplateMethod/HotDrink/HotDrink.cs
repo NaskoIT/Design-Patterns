@@ -1,4 +1,4 @@
-﻿namespace TemplateMethodPattern
+﻿namespace HotDrink
 {
     using System;
     

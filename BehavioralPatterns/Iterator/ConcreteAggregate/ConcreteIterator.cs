@@ -1,4 +1,4 @@
-﻿namespace IteratorPattern
+﻿namespace ConcreteAggregate
 {
     using System;
 

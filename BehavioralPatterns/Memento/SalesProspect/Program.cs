@@ -1,4 +1,4 @@
-﻿namespace MementoPattern
+﻿namespace SalesProspect
 {
     using System;
 

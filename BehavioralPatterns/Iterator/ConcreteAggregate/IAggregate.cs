@@ -1,4 +1,4 @@
-﻿namespace IteratorPattern
+﻿namespace ConcreteAggregate
 {
     public interface IAggregate<T>
     {

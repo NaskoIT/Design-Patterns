@@ -1,4 +1,4 @@
-﻿namespace ChainOfResponsibilityPattern
+﻿namespace TeamLead
 {
     using System;
 

@@ -1,4 +1,4 @@
-﻿namespace MediatorPattern
+﻿namespace ChatRoom
 {
     public class Program
     {
