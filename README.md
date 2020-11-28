@@ -1,33 +1,35 @@
 # Software Design Patterns
-Implementations and demos of most popular creational, behavioral and structural software design patterns.
+Implementations and demos of the most popular creational, behavioral and structural software design patterns.
 
-## Creational Design Patterns
+## [Creational Design Patterns](https://github.com/NaskoVasilev/Design-Patterns/tree/master/CreationalDesignPatterns)
 - Abstract Factory
-- Builder Pattern
+- Builder
 - Factory Method
-- Factory Pattern
-- Prototype Pattern
-- Simple Factory Pattern
-- Singleton Pattern
+- Factory
+- Prototype
+- Simple Factory
+- Singleton
 
-## Structural Design Patterns
-- Adapter Pattern
-- Bridge Pattern
-- Composite Pattern
-- Decorator Pattern
-- Facade Pattern
-- Flyweight Pattern
-- Proxy Pattern
+## [Structural Design Patterns](https://github.com/NaskoVasilev/Design-Patterns/tree/master/StructuralPatterns)
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
 
-## Behavioral Design Patterns
-- Chain Of Responsibility Pattern
-- Command Pattern
-- Interpreter Pattern
-- Iterator Pattern
-- Mediator Pattern
-- Memento Pattern
-- Observer Pattern
-- State Pattern
-- Strategy Pattern
-- Template Method Pattern
-- Visitor Pattern
+## [Behavioral Design Patterns](https://github.com/NaskoVasilev/Design-Patterns/tree/master/BehavioralPatterns)
+- Chain Of Responsibility
+- Command
+- Interpreter
+- Iterator
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- Template Method
+- Visitor
+
+## More examples and UML diagrams - [link](https://dofactory.com/net/design-patterns)
