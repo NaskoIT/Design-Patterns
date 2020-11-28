@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaFactory", "SimpleFacto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger", "Singleton\Logger\Logger.csproj", "{6443D43D-120C-4887-8BAD-49F794B7E272}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeFactory", "SimpleFactory\CoffeeFactory\CoffeeFactory.csproj", "{3B7AE410-8017-40F1-833C-792AF4190DE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{6443D43D-120C-4887-8BAD-49F794B7E272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6443D43D-120C-4887-8BAD-49F794B7E272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6443D43D-120C-4887-8BAD-49F794B7E272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7AE410-8017-40F1-833C-792AF4190DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7AE410-8017-40F1-833C-792AF4190DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7AE410-8017-40F1-833C-792AF4190DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7AE410-8017-40F1-833C-792AF4190DE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +83,7 @@ Global
 		{F270D8F3-4F6C-42DA-9DE6-BC58C3A622C6} = {CED28EA4-3CC3-45B7-BDB1-25FB0084EDCD}
 		{1D50B592-0177-4105-9F64-28D5A5AD38DF} = {7A1FD591-7C3A-44DB-8B6D-E39FABC67363}
 		{6443D43D-120C-4887-8BAD-49F794B7E272} = {E5EA0A2A-3640-4E98-AB02-6450639106CD}
+		{3B7AE410-8017-40F1-833C-792AF4190DE9} = {7A1FD591-7C3A-44DB-8B6D-E39FABC67363}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5A5B1797-73DF-493D-A91B-136D215C50D8}
