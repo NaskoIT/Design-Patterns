@@ -1,4 +1,4 @@
-﻿namespace PrototypePattern
+﻿namespace ColorManager
 {
     /// <summary>
     ///  The 'Prototype' abstract class

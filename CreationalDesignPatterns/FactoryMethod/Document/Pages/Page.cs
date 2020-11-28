@@ -1,4 +1,4 @@
-﻿namespace FactoryMethodPattern.Pages
+﻿namespace Document.Pages
 {
     public abstract class Page
     {

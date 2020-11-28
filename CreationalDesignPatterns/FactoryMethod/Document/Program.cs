@@ -1,7 +1,7 @@
-﻿namespace FactoryMethodPattern
+﻿namespace Document
 {
     using System;
-    using FactoryMethodPattern.Documents;
+    using Document.Documents;
 
     public class Program
     {

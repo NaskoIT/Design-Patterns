@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryPattern
+﻿namespace ContinentFactory
 {
     public class AmericaFactory : ContinentFactory
     {

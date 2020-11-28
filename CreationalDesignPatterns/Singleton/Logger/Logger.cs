@@ -1,4 +1,4 @@
-﻿namespace SingletonPattern
+﻿namespace Logger
 {
     using System;
 

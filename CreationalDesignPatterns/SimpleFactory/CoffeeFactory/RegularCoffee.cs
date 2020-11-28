@@ -1,4 +1,4 @@
-﻿namespace SimpleFactory
+﻿namespace CoffeeFactory
 {
     public class RegularCoffee : Coffee
     {

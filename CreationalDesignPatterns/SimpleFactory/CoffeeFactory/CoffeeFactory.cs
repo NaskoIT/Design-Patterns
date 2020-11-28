@@ -1,4 +1,4 @@
-﻿namespace SimpleFactory
+﻿namespace CoffeeFactory
 {
     using System;
 

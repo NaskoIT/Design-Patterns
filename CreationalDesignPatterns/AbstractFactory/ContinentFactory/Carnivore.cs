@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryPattern
+﻿namespace ContinentFactory
 {
     public abstract class Carnivore
     {

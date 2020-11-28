@@ -1,7 +1,7 @@
-﻿namespace FactoryMethodPattern.Documents
+﻿namespace Document.Documents
 {
     using System.Collections.Generic;
-    using FactoryMethodPattern.Pages;
+    using global::Document.Pages;
 
     public abstract class Document
     {

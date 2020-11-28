@@ -1,4 +1,4 @@
-﻿namespace SingletonPattern
+﻿namespace Logger
 {
     /// <summary>
     ///  Singleton implementation with Double-Check Lock

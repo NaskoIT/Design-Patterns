@@ -1,6 +1,6 @@
-﻿namespace FactoryMethodPattern.Documents
+﻿namespace Document.Documents
 {
-    using FactoryMethodPattern.Pages;
+    using global::Document.Pages;
 
     public class CV : Document
     {

@@ -1,4 +1,4 @@
-﻿namespace BuilderPattern
+﻿namespace VehicleBuilder
 {
     using System;
     using System.Collections.Generic;

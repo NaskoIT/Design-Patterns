@@ -1,4 +1,4 @@
-﻿namespace SimpleFactoryPattern
+﻿namespace PizzaFactory
 {
     public class CheesePizza : Pizza
     {

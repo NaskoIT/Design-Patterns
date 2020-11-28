@@ -1,4 +1,4 @@
-﻿namespace BuilderPattern
+﻿namespace VehicleBuilder
 {
     /// <summary>
     ///  The 'Builder' abstract class

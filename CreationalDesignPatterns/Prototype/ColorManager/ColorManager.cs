@@ -1,4 +1,4 @@
-﻿namespace PrototypePattern
+﻿namespace ColorManager
 {
     using System.Collections.Generic;
 
