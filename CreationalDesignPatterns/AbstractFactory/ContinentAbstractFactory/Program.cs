@@ -1,10 +1,12 @@
-﻿namespace ContinentFactory
+﻿namespace ContinentAbstractFactory
 {
     using System;
 
+    using ContinentAbstractFactory.Factories;
+
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             ContinentFactory[] continentFactories = new ContinentFactory[]
             {

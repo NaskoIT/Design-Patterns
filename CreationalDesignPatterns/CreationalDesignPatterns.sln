@@ -39,7 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreationalDesignPatterns.Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeAbstractFactory", "AbstractFactory\CoffeeAbstractFactory\CoffeeAbstractFactory.csproj", "{E171C87D-D37F-4A96-82B2-3591A67F7EBF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContinentFactory", "AbstractFactory\ContinentAbstractFactory\ContinentFactory.csproj", "{CD42951B-12A5-4CF4-807A-3D07C1EC3003}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContinentAbstractFactory", "AbstractFactory\ContinentAbstractFactory\ContinentAbstractFactory.csproj", "{CD42951B-12A5-4CF4-807A-3D07C1EC3003}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

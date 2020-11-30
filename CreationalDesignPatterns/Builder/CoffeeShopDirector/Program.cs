@@ -4,7 +4,7 @@
 
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             CoffeeShopDirector coffeeShop = new CoffeeShopDirector();
 
@@ -20,10 +20,10 @@
             Console.WriteLine("French Breakfast Menu:");
             frenchMenu.Print();
 
+            Console.WriteLine();
+
             Console.WriteLine("Italian Breakfast Menu:");
             italianMenu.Print();
-
-            Console.ReadKey(true);
         }
     }
 }

@@ -1,5 +1,10 @@
 ﻿namespace CoffeeShopDirector
 {
+    using CreationalDesignPatterns.Common;
+
+    /// <summary>
+    ///  The 'ConcreteBuilder' class
+    /// </summary>
     public class FrenchBreakfastBuilder : IMenuBuilder
     {
         private Menu menu;
@@ -11,17 +16,17 @@
 
         public void AddHotDrink()
         {
-            this.menu.HotDrink = "Coffee";
+            this.menu.HotDrink = Constants.DisplayDoubleCoffee;
         }
 
         public void AddColdDrink()
         {
-            this.menu.ColdDrink = "Water";
+            this.menu.ColdDrink = Constants.DisplayWater;
         }
 
         public void AddDessert()
         {
-            this.menu.Dessert = "Croissant";
+            this.menu.Dessert = Constants.DisplayCroissant;
         }
 
         public Menu GetMenu() => this.menu;

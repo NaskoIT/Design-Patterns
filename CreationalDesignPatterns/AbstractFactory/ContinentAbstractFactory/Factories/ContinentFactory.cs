@@ -1,6 +1,8 @@
-﻿namespace ContinentFactory
+﻿namespace ContinentAbstractFactory.Factories
 {
     using System;
+
+    using ContinentAbstractFactory.Models;
 
     public abstract class ContinentFactory
     {

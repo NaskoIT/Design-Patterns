@@ -1,7 +1,5 @@
 ﻿namespace CoffeeAbstractFactory
 {
-    using System;
-
     using CoffeeAbstractFactory.Factories;
     using CoffeeAbstractFactory.Models;
 
@@ -22,8 +20,6 @@
             frenchMilkCoffee.Print();
             italianPlainCoffee.Print();
             italianMilkCoffee.Print();
-
-            Console.ReadKey(true);
         }
     }
 }

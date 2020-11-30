@@ -1,6 +1,12 @@
 ﻿namespace CoffeeShopDirector
 {
     using System;
+
+    using CreationalDesignPatterns.Common;
+
+    /// <summary>
+    ///  The 'Product' class
+    /// </summary>
     public class Menu
     {
         public string HotDrink { get; set; }
@@ -11,9 +17,9 @@
 
         public void Print()
         {
-            Console.WriteLine("Hot Drink: " + HotDrink);
-            Console.WriteLine("Cold Drink: " + ColdDrink);
-            Console.WriteLine("Dessert: " + Dessert);
+            Console.WriteLine(PrintMessages.MenuHotDrinkPrintMessage, this.HotDrink);
+            Console.WriteLine(PrintMessages.MenuColdDrinkPrintMessage, this.ColdDrink);
+            Console.WriteLine(PrintMessages.MenuDessertPrintMessage, this.Dessert);
         }
     }
 }
