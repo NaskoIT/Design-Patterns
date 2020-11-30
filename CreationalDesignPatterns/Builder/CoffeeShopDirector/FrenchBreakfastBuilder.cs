@@ -6,27 +6,24 @@
 
         public FrenchBreakfastBuilder()
         {
-            menu = new Menu();
+            this.menu = new Menu();
         }
 
         public void AddHotDrink()
         {
-            menu.HotDrink = "Coffee";
+            this.menu.HotDrink = "Coffee";
         }
 
         public void AddColdDrink()
         {
-            menu.ColdDrink = "Water";
+            this.menu.ColdDrink = "Water";
         }
 
         public void AddDessert()
         {
-            menu.Dessert = "Croissant";
+            this.menu.Dessert = "Croissant";
         }
 
-        public Menu GetMenu()
-        {
-            return menu;
-        }
+        public Menu GetMenu() => this.menu;
     }
 }

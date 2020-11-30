@@ -1,6 +1,8 @@
-﻿namespace CoffeeFactory
+﻿namespace CoffeeAbstractFactory.Models
 {
     using System;
+
+    using CreationalDesignPatterns.Common;
 
     public abstract class Coffee
     {
@@ -12,7 +14,7 @@
 
         public void Print()
         {
-            Console.WriteLine("{0} contains {1} ml coffee and {2} ml milk", Name, CoffeeContent, MilkContent);
+            Console.WriteLine(InfoMessages.CoffeeFactoryPrintMessage, this.Name, this.CoffeeContent, this.MilkContent);
         }
     }
 }

@@ -1,10 +1,13 @@
-﻿namespace CoffeeFactory
+﻿namespace CoffeeAbstractFactory
 {
     using System;
 
+    using CoffeeAbstractFactory.Factories;
+    using CoffeeAbstractFactory.Models;
+
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             CoffeeFactory frenchCoffeeFactory = new FrenchCoffeeFactory();
             CoffeeFactory italianCoffeeFactory = new ItalianCoffeeFactory();

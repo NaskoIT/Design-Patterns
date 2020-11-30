@@ -6,27 +6,24 @@
 
         public ItalianBreakfastBuilder()
         {
-            menu = new Menu();
+            this.menu = new Menu();
         }
 
         public void AddHotDrink()
         {
-            menu.HotDrink = "Cappuccino";
+            this.menu.HotDrink = "Cappuccino";
         }
 
         public void AddColdDrink()
         {
-            menu.ColdDrink = "Juice";
+            this.menu.ColdDrink = "Juice";
         }
 
         public void AddDessert()
         {
-            menu.Dessert = "Tiramisu";
+            this.menu.Dessert = "Tiramisu";
         }
 
-        public Menu GetMenu()
-        {
-            return menu;
-        }
+        public Menu GetMenu() => this.menu;
     }
 }
