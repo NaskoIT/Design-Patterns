@@ -1,12 +1,13 @@
-﻿namespace CoffeeShopDirector
+﻿namespace CoffeeShop
 {
     using System;
+    using CoffeeShop.Builders;
 
     public class Program
     {
         public static void Main()
         {
-            CoffeeShopDirector coffeeShop = new CoffeeShopDirector();
+            Shop coffeeShop = new Shop();
 
             IMenuBuilder frenchMenuBuilder = new FrenchBreakfastBuilder();
             IMenuBuilder italianMenuBuilder = new ItalianBreakfastBuilder();

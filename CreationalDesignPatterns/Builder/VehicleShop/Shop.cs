@@ -1,5 +1,7 @@
-﻿namespace VehicleBuilder
+﻿namespace VehicleShop
 {
+    using VehicleShop.Builders;
+
     /// <summary>
     ///  The 'Director' class
     /// </summary>

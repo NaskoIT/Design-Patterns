@@ -1,4 +1,4 @@
-﻿namespace CoffeeShopDirector
+﻿namespace CoffeeShop
 {
     using System;
 

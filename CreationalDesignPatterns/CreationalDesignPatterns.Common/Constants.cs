@@ -12,6 +12,21 @@
         public const string DisplayJuice = "Juice";
         public const string DisplayTiramisu = "Tiramisu";
 
+        public const string DisplayCar = "Car";
+        public const string DisplayMotorcycle = "Motorcycle";
+        public const string DisplayScooter = "Scooter";
+        public const string DisplayFrame = "Frame";
+        public const string VehiclePartDoors = "doors";
+        public const string VehiclePartEngine = "engine";
+        public const string VehiclePartWheels = "wheels";
+
+        public const string StringNumberFour = "4";
+        public const string StringOptionNo = "no";
+        public const string StringNumberTwo = "2";
+        public const string StringCarEngineCapacity = "1900cc";
+        public const string StringMotorcycleEngineCapacity = "250cc";
+        public const string StringScooterEngineCapacity = "50cc";
+
         public const int ContentZeroMl = 0;
         public const int ContentHundredMl = 100;
         public const int ContentTwoHundredMl = 200;

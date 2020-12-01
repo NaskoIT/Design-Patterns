@@ -1,7 +1,9 @@
-﻿namespace VehicleBuilder
+﻿namespace VehicleShop
 {
     using System;
     using System.Collections.Generic;
+
+    using CreationalDesignPatterns.Common;
 
     /// <summary>
     ///  The 'Product' class
@@ -26,10 +28,10 @@
         {
             Console.WriteLine($"\n{new string('-', 30)}");
             Console.WriteLine($"Vehicle Type: {vehicleType}");
-            Console.WriteLine($" Frame: {parts["frame"]}");
-            Console.WriteLine($" Engine: {parts["engine"]}");
-            Console.WriteLine($" #Wheels: {parts["wheels"]}");
-            Console.WriteLine($" #Doors: {parts["doors"]}");
+            Console.WriteLine($" Frame: {parts[Constants.DisplayFrame.ToLower()]}");
+            Console.WriteLine($" Engine: {parts[Constants.VehiclePartEngine]}");
+            Console.WriteLine($" #Wheels: {parts[Constants.VehiclePartWheels]}");
+            Console.WriteLine($" #Doors: {parts[Constants.VehiclePartDoors]}");
         }
     }
 }

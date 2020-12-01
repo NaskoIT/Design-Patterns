@@ -4,14 +4,12 @@
 
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            Singleton singleton = Singleton.GetInstance();
-            Singleton singleton1 = Singleton.GetInstance();
+            Singleton singletonOne = Singleton.GetInstance();
+            Singleton singletonTwo = Singleton.GetInstance();
 
-            Console.WriteLine(singleton == singleton1);
-
-            Console.ReadKey(true);
+            Console.WriteLine(singletonOne == singletonTwo);
         }
     }
 }

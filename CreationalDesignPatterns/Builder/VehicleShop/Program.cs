@@ -1,15 +1,17 @@
-﻿namespace VehicleBuilder
+﻿namespace VehicleShop
 {
+    using VehicleShop.Builders;
+
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             Shop shop = new Shop();
 
             var builders = new VehicleBuilder[]
             {
                 new ScooterBuilder(),
-                new MotorCycleBuilder(),
+                new MotorcycleBuilder(),
                 new CarBuilder()
             };
 

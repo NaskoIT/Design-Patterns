@@ -1,4 +1,4 @@
-﻿namespace CoffeeShopDirector
+﻿namespace CoffeeShop.Builders
 {
     using CreationalDesignPatterns.Common;
 
@@ -14,19 +14,22 @@
             this.menu = new Menu();
         }
 
-        public void AddHotDrink()
+        public IMenuBuilder AddHotDrink()
         {
             this.menu.HotDrink = Constants.DisplayDoubleCoffee;
+            return this;
         }
 
-        public void AddColdDrink()
+        public IMenuBuilder AddColdDrink()
         {
             this.menu.ColdDrink = Constants.DisplayWater;
+            return this;
         }
 
-        public void AddDessert()
+        public IMenuBuilder AddDessert()
         {
             this.menu.Dessert = Constants.DisplayCroissant;
+            return this;
         }
 
         public Menu GetMenu() => this.menu;

@@ -1,5 +1,7 @@
-﻿namespace VehicleBuilder
+﻿namespace VehicleShop.Builders
 {
+    using CreationalDesignPatterns.Common;
+
     /// <summary>
     ///  The 'ConcreteBuilder' class
     /// </summary>
@@ -7,30 +9,30 @@
     {
         public ScooterBuilder()
         {
-            Vehicle = new Vehicle("Scooter");
+            Vehicle = new Vehicle(Constants.DisplayScooter);
         }
 
         public override VehicleBuilder BuildDoors()
         {
-            Vehicle["doors"] = "no";
+            Vehicle[Constants.VehiclePartDoors] = Constants.StringOptionNo;
             return this;
         }
 
         public override VehicleBuilder BuildEngine()
         {
-            Vehicle["engine"] = "50cc";
+            Vehicle[Constants.VehiclePartEngine] = Constants.StringScooterEngineCapacity;
             return this;
         }
 
         public override VehicleBuilder BuildFrame()
         {
-            Vehicle["frame"] = "Scooter Frame";
+            Vehicle[Constants.DisplayFrame.ToLower()] = Constants.DisplayScooter + " " + Constants.DisplayFrame;
             return this;
         }
 
         public override VehicleBuilder BuildWheels()
         {
-            Vehicle["wheels"] = "2";
+            Vehicle[Constants.VehiclePartWheels] = Constants.StringNumberTwo;
             return this;
         }
     }

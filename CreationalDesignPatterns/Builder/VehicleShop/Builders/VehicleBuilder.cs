@@ -1,4 +1,4 @@
-﻿namespace VehicleBuilder
+﻿namespace VehicleShop.Builders
 {
     /// <summary>
     ///  The 'Builder' abstract class

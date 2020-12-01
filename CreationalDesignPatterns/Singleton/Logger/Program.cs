@@ -4,23 +4,23 @@
 
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             int objectsCount = 10000;
             object[] logObjects = CreateObjects(() => Log.Instance, objectsCount);
-            bool logObjectsAreEqual = ObjectsAreaEqual(logObjects);
+            bool logObjectsAreEqual = ObjectsAreEqual(logObjects);
             Console.WriteLine($"All created Log objects have the same instances => are equal: {logObjectsAreEqual}");
 
             Console.WriteLine(new string('-', 50));
 
             object[] loggerObjects = CreateObjects(() => Logger.Instance, objectsCount);
-            bool loggerObjectsAreEqual = ObjectsAreaEqual(loggerObjects);
+            bool loggerObjectsAreEqual = ObjectsAreEqual(loggerObjects);
             Console.WriteLine($"All created Logger objects have the same instances => are equal: {loggerObjectsAreEqual}");
             //Second implementation usnig static constructor demo
             Logger.Instance.Log("Successfully implemented singleton pattern!");
         }
 
-        public static object[] CreateObjects(Func<object> objectFactory, int objectsCount)
+        private static object[] CreateObjects(Func<object> objectFactory, int objectsCount)
         {
             object[] objects = new object[objectsCount];
 
@@ -32,7 +32,7 @@
             return objects;
         }
 
-        public static bool ObjectsAreaEqual(object[] objects)
+        private static bool ObjectsAreEqual(object[] objects)
         {
             bool objectsAreEqual = true;
             //Check if all objects have the same instances
