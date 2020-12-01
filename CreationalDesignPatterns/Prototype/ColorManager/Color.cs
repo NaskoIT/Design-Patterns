@@ -1,6 +1,7 @@
 ﻿namespace ColorManager
 {
     using System;
+    using CreationalDesignPatterns.Common;
 
     /// <summary>
     /// The 'ConcretePrototype' class
@@ -20,13 +21,10 @@
 
         public override ColorPrototype Clone()
         {
-            Console.WriteLine($"Clonning color {this.ToString()}");
+            Console.WriteLine(PrintMessages.ClonningColorPrintMessage, this.ToString());
             return MemberwiseClone() as ColorPrototype;
         }
 
-        public override string ToString()
-        {
-            return $"RGB: {red}, {green}, {blue}";
-        }
+        public override string ToString() => $"RGB: {this.red}, {this.green}, {this.blue}";
     }
 }

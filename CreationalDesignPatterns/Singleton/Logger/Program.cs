@@ -1,23 +1,27 @@
 ﻿namespace Logger
 {
     using System;
+    using CreationalDesignPatterns.Common;
 
     public class Program
     {
         public static void Main()
         {
-            int objectsCount = 10000;
+            int objectsCount = Constants.ObjectsCount;
             object[] logObjects = CreateObjects(() => Log.Instance, objectsCount);
             bool logObjectsAreEqual = ObjectsAreEqual(logObjects);
-            Console.WriteLine($"All created Log objects have the same instances => are equal: {logObjectsAreEqual}");
+            Console.WriteLine(PrintMessages.AllCreatedObjectsPrintMessage, nameof(Log), logObjectsAreEqual);
 
             Console.WriteLine(new string('-', 50));
 
             object[] loggerObjects = CreateObjects(() => Logger.Instance, objectsCount);
             bool loggerObjectsAreEqual = ObjectsAreEqual(loggerObjects);
-            Console.WriteLine($"All created Logger objects have the same instances => are equal: {loggerObjectsAreEqual}");
+            Console.WriteLine(PrintMessages.AllCreatedObjectsPrintMessage, nameof(Logger), loggerObjectsAreEqual);
+
+            Console.WriteLine(new string('-', 50));
+
             //Second implementation usnig static constructor demo
-            Logger.Instance.Log("Successfully implemented singleton pattern!");
+            Logger.Instance.Log(PrintMessages.SuccesfullyImpementedPrintMessage);
         }
 
         private static object[] CreateObjects(Func<object> objectFactory, int objectsCount)
