@@ -18,7 +18,7 @@
         public double Divide(double x, double y)
         {
             //Do some security checks , parameters changes, logging, validations
-            if (y == 0)
+            if (x == 0 || y == 0)
             {
                 throw new DivideByZeroException();
             }

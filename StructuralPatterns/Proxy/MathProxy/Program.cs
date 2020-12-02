@@ -1,20 +1,26 @@
 ﻿namespace MathProxy
 {
     using System;
+    using StructuralPatterns.Common;
 
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
+            Console.WriteLine(PrintMessages.PickNumbersPrintMessage);
+
+            int firstNum = int.Parse(Console.ReadLine());
+            int secondNum = int.Parse(Console.ReadLine());
+
             MathProxy proxy = new MathProxy();
-            Console.WriteLine($"4 + 2 = {proxy.Add(4, 2)}");
-            Console.WriteLine($"4 - 2 = {proxy.Sub(4, 2)}");
-            Console.WriteLine($"4 * 2 = {proxy.Multiply(4, 2)}");
-            Console.WriteLine($"4 / 2 = {proxy.Divide(4, 2)}");
+            Console.WriteLine($"{firstNum} + {secondNum} = {proxy.Add(firstNum, secondNum)}");
+            Console.WriteLine($"{firstNum} - {secondNum} = {proxy.Sub(firstNum, secondNum)}");
+            Console.WriteLine($"{firstNum} * {secondNum} = {proxy.Multiply(firstNum, secondNum)}");
+            Console.WriteLine($"{firstNum} / {secondNum} = {proxy.Divide(firstNum, secondNum)}");
 
             try
             {
-                Console.WriteLine($"4 / 0 = {proxy.Divide(4, 0)}");
+                Console.WriteLine($"{firstNum} / 0 = {proxy.Divide(firstNum, 0)}");
             }
             catch (DivideByZeroException ex)
             {

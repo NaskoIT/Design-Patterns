@@ -4,7 +4,7 @@
 
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             //Create book
             var book = new Book("Microsoft", "Asp.Net Core", 10);
