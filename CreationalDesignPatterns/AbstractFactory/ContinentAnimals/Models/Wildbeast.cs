@@ -1,6 +1,6 @@
 ﻿namespace ContinentAnimals.Models
 {
-    public class Wildebeest : Herbivore
+    public class Wildbeast : Herbivore
     {
     }
 }

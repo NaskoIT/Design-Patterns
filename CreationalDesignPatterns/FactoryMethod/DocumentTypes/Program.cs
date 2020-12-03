@@ -1,7 +1,9 @@
 ﻿namespace DocumentTypes
 {
     using System;
+
     using DocumentTypes.Documents;
+    using FactoryMethod.Common;
 
     public class Program
     {
@@ -20,7 +22,7 @@
                 for (int i = 0; i < document.Pages.Count; i++)
                 {
                     var pageTypeName = document.Pages[i].GetType().Name;
-                    Console.WriteLine($"{i + 1}. {pageTypeName}");
+                    Console.WriteLine(PrintMessages.PageTypePrintMessage, i + 1, pageTypeName);
                 }
             }
         }

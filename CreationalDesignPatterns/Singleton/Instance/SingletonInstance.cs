@@ -1,16 +1,16 @@
-﻿namespace GetInstance
+﻿namespace Instance
 {
-    public class Singleton
+    public class SingletonInstance
     {
         // eager loading
         //private readonly Singleton instance = new Singleton();
-        private static Singleton instance;
+        private static SingletonInstance instance;
 
-        public static Singleton GetInstance()
+        public static SingletonInstance GetInstance()
         {
             if (instance == null)
             {
-                instance = new Singleton();
+                instance = new SingletonInstance();
             }
             return instance;
         }

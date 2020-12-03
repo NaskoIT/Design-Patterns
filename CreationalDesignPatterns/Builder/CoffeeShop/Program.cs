@@ -1,6 +1,8 @@
 ﻿namespace CoffeeShop
 {
     using System;
+
+    using Builder.Common;
     using CoffeeShop.Builders;
 
     public class Program
@@ -18,12 +20,12 @@
             coffeeShop.Construct(italianMenuBuilder);
             Menu italianMenu = italianMenuBuilder.GetMenu();
 
-            Console.WriteLine("French Breakfast Menu:");
+            Console.WriteLine(PrintMessages.FrenchBreakfastMenuPrintMessage);
             frenchMenu.Print();
 
             Console.WriteLine();
 
-            Console.WriteLine("Italian Breakfast Menu:");
+            Console.WriteLine(PrintMessages.ItalianBreakfastMenuPrintMessage);
             italianMenu.Print();
         }
     }

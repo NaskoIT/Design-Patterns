@@ -1,7 +1,8 @@
 ﻿namespace CoffeeShop.Models
 {
     using System;
-    using CreationalDesignPatterns.Common;
+
+    using SimpleFactory.Common;
 
     public abstract class Coffee
     {
@@ -13,7 +14,7 @@
 
         public void Print()
         {
-            Console.WriteLine(PrintMessages.CoffeeFactoryPrintMessage, this.Name, this.CoffeeContent, this.MilkContent);
+            Console.WriteLine(PrintMessages.CoffeeShopPrintMessage, this.Name, this.CoffeeContent, this.MilkContent);
         }
     }
 }

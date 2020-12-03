@@ -1,7 +1,8 @@
 ﻿namespace ColorManager
 {
     using System;
-    using CreationalDesignPatterns.Common;
+
+    using Prototype.Common;
 
     /// <summary>
     /// The 'ConcretePrototype' class

@@ -1,6 +1,6 @@
 ﻿namespace CoffeeShop.Models
 {
-    using CreationalDesignPatterns.Common;
+    using SimpleFactory.Common;
 
     public class DoubleCoffee : Coffee
     {

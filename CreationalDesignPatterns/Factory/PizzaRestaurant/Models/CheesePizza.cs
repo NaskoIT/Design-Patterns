@@ -1,6 +1,6 @@
 ﻿namespace PizzaRestaurant.Models
 {
-    using CreationalDesignPatterns.Common;
+    using Factory.Common;
 
     public class CheesePizza : Pizza
     {

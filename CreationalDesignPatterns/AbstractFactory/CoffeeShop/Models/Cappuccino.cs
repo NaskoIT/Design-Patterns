@@ -1,6 +1,6 @@
 ﻿namespace CoffeeShop.Models
 {
-    using CreationalDesignPatterns.Common;
+    using AbstractFactory.Common;
 
     public class Cappuccino : MilkCoffee
     {

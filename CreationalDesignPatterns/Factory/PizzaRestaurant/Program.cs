@@ -2,7 +2,7 @@
 {
     using System;
 
-    using CreationalDesignPatterns.Common;
+    using Factory.Common;
     using PizzaRestaurant.Factories;
     using PizzaRestaurant.Models;
 

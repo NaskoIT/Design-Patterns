@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
 
-    using CreationalDesignPatterns.Common;
+    using Builder.Common;
 
     /// <summary>
     ///  The 'Product' class
@@ -27,11 +27,11 @@
         public void Show()
         {
             Console.WriteLine($"\n{new string('-', 30)}");
-            Console.WriteLine($"Vehicle Type: {vehicleType}");
-            Console.WriteLine($" Frame: {parts[Constants.DisplayFrame.ToLower()]}");
-            Console.WriteLine($" Engine: {parts[Constants.VehiclePartEngine]}");
-            Console.WriteLine($" #Wheels: {parts[Constants.VehiclePartWheels]}");
-            Console.WriteLine($" #Doors: {parts[Constants.VehiclePartDoors]}");
+            Console.WriteLine(PrintMessages.VehicleTypePrintMessage, vehicleType);
+            Console.WriteLine(PrintMessages.FramePrintMessage, parts[Constants.DisplayFrame.ToLower()]);
+            Console.WriteLine(PrintMessages.EnginePrintMessage, parts[Constants.VehiclePartEngine]);
+            Console.WriteLine(PrintMessages.WheelsPrintMessage, parts[Constants.VehiclePartWheels]);
+            Console.WriteLine(PrintMessages.DoorsPrintMessage, parts[Constants.VehiclePartDoors]);
         }
     }
 }

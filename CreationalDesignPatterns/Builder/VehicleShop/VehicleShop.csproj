@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CreationalDesignPatterns.Common\CreationalDesignPatterns.Common.csproj" />
+    <ProjectReference Include="..\Builder.Common\Builder.Common.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace CoffeeShop.Builders
 {
-    using CreationalDesignPatterns.Common;
+    using Builder.Common;
 
     /// <summary>
     ///  The 'ConcreteBuilder' class

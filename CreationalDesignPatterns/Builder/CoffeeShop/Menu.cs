@@ -2,7 +2,7 @@
 {
     using System;
 
-    using CreationalDesignPatterns.Common;
+    using Builder.Common;
 
     /// <summary>
     ///  The 'Product' class

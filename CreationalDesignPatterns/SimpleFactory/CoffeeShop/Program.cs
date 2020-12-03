@@ -5,7 +5,7 @@
     using CoffeeShop.Enums;
     using CoffeeShop.Factories;
     using CoffeeShop.Models;
-    using CreationalDesignPatterns.Common;
+    using SimpleFactory.Common;
 
     public class Program
     {

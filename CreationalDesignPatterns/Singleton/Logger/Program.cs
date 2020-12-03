@@ -1,7 +1,8 @@
 ﻿namespace Logger
 {
     using System;
-    using CreationalDesignPatterns.Common;
+
+    using Singleton.Common;
 
     public class Program
     {

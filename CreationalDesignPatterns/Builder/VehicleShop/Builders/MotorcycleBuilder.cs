@@ -1,6 +1,6 @@
 ﻿namespace VehicleShop.Builders
 {
-    using CreationalDesignPatterns.Common;
+    using Builder.Common;
 
     /// <summary>
     ///  The 'ConcreteBuilder' class

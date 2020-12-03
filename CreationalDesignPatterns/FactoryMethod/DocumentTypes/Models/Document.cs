@@ -1,6 +1,7 @@
 ﻿namespace DocumentTypes.Documents
 {
     using System.Collections.Generic;
+
     using DocumentTypes.Pages;
 
     public abstract class Document

@@ -1,6 +1,7 @@
 ﻿namespace PizzaRestaurant.Factories
 {
     using PizzaRestaurant.Enums;
+    using PizzaRestaurant.Models;
 
     public class PizzaFactory
     {

@@ -1,6 +1,6 @@
 ﻿namespace PizzaRestaurant.Models
 {
-    using CreationalDesignPatterns.Common;
+    using SimpleFactory.Common;
 
     public class PepperoniPizza : Pizza
     {
