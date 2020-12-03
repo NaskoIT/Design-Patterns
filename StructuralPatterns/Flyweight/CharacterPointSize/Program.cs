@@ -1,7 +1,7 @@
 ﻿namespace CharacterPointSize
 {
     using CharacterPointSize.Models;
-    using StructuralPatterns.Common;
+    using Flyweight.Common;
 
     public class Program
     {

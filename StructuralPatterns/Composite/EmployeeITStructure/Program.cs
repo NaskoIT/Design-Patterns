@@ -1,7 +1,8 @@
 ﻿namespace EmployeeITStructure
 {
     using System;
-    using StructuralPatterns.Common;
+
+    using Composite.Common;
 
     public class Program
     {
@@ -25,7 +26,7 @@
             Employee blazorSeniorDeveloper = new Employee { Id = 7, Position = Constants.DisplayBlazorSenior };
 
             Contractor juniorAngularDeveloper = new Contractor { Id = 8, Position = Constants.DisplayJuniorAngular };
-            Contractor juniorReactDevelope = new Contractor { Id = 9, Position = Constants.DisplaJuniorReact };
+            Contractor juniorReactDevelope = new Contractor { Id = 9, Position = Constants.DisplayJuniorReact };
 
             frontEndTeamLeader.AddSubordinate(angularSeniorDeveloper);
             frontEndTeamLeader.AddSubordinate(blazorSeniorDeveloper);

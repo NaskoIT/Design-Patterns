@@ -3,7 +3,7 @@
     using System.Collections.Generic;
 
     using CharacterPointSize.Models;
-    using StructuralPatterns.Common;
+    using Flyweight.Common;
 
     /// <summary>
     /// The 'FlyweigthFactory' class

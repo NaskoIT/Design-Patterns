@@ -4,7 +4,7 @@
     using System.Collections.Generic;
 
     using Bar.Models;
-    using StructuralPatterns.Common;
+    using Facade.Common;
 
     /// <summary>
     /// The 'Facade' class
@@ -24,7 +24,7 @@
         public void Pay()
         {
             Calculator calc = new Calculator();
-            var sum = StringExtension.ToCurrency(calc.Sum(order));
+            var sum = StringExtensions.ToCurrency(calc.Sum(order));
             Console.WriteLine(PrintMessages.BarPrintMessage, sum);
         }
     }

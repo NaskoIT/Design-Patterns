@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\StructuralPatterns.Common\StructuralPatterns.Common.csproj" />
+    <ProjectReference Include="..\Bridge.Common\Bridge.Common.csproj" />
   </ItemGroup>
 
 </Project>

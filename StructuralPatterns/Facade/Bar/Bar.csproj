@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\StructuralPatterns.Common\StructuralPatterns.Common.csproj" />
+    <ProjectReference Include="..\Facade.Common\Facade.Common.csproj" />
   </ItemGroup>
 
 </Project>

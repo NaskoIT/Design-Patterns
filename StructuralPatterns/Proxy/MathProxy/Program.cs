@@ -1,7 +1,8 @@
 ﻿namespace MathProxy
 {
     using System;
-    using StructuralPatterns.Common;
+
+    using Proxy.Common;
 
     public class Program
     {

@@ -1,6 +1,6 @@
 ﻿namespace CharacterPointSize.Models
 {
-    using StructuralPatterns.Common;
+    using Flyweight.Common;
 
     /// <summary>
     /// The 'Concrete Flyweight' class

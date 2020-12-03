@@ -3,7 +3,7 @@
     using System.Collections;
     using System.Collections.Generic;
 
-    using StructuralPatterns.Common;
+    using Composite.Common;
 
     /// <summary>
     /// The 'Composite' class

@@ -1,6 +1,6 @@
 ﻿namespace ChemicalCompounds
 {
-    using StructuralPatterns.Common;
+    using Adapter.Common;
 
     /// <summary>
     /// The 'Adaptee' class

@@ -2,7 +2,7 @@
 {
     using System;
 
-    using StructuralPatterns.Common;
+    using Flyweight.Common;
 
     /// <summary>
     /// The 'Flyweight' abstract class

@@ -3,8 +3,8 @@
     using System;
     using System.Collections.Generic;
 
+    using Adapter.Common;
     using Cafeteria.Models;
-    using StructuralPatterns.Common;
 
     /// <summary>
     /// The 'ConcreteAdapter' class
@@ -24,7 +24,7 @@
 
             foreach (DessertInfo dessertInfo in desserts)
             {
-                var price = StringExtension.ToCurrency(dessertInfo.Price);
+                var price = StringExtensions.ToCurrency(dessertInfo.Price);
                 Console.WriteLine(PrintMessages.CafeteriaPrintMessage, dessertInfo.Name, price);
             }
         }

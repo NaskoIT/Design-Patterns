@@ -1,7 +1,8 @@
 ﻿namespace ChemicalCompounds
 {
     using System;
-    using StructuralPatterns.Common;
+
+    using Adapter.Common;
 
     /// <summary>
     /// The 'ConcreteAdapter' class

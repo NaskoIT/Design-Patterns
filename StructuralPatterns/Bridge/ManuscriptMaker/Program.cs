@@ -2,9 +2,9 @@
 {
     using System.Collections.Generic;
 
+    using Bridge.Common;
     using ManuscriptMaker.Core;
     using ManuscriptMaker.Models;
-    using StructuralPatterns.Common;
 
     public class Program
     {

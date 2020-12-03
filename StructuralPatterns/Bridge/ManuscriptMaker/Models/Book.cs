@@ -1,6 +1,7 @@
 ﻿namespace ManuscriptMaker.Models
 {
     using System;
+
     using ManuscriptMaker.Core;
 
     public class Book : Manuscript

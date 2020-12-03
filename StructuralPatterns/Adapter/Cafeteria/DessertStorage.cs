@@ -2,8 +2,8 @@
 {
     using System.Collections.Generic;
 
+    using Adapter.Common;
     using Cafeteria.Models;
-    using StructuralPatterns.Common;
 
     /// <summary>
     /// The 'Adaptee' class

@@ -1,6 +1,6 @@
 ﻿namespace EmployeeITStructure
 {
-    using StructuralPatterns.Common;
+    using Composite.Common;
 
     /// <summary>
     /// The 'Leaf' class
