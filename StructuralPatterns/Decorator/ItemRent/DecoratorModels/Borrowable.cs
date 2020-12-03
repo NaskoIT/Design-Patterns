@@ -1,28 +1,31 @@
-﻿namespace Borrowable
+﻿namespace ItemRent
 {
     using System;
     using System.Collections.Generic;
 
+    using Decorator.Common;
+
     /// <summary>
     /// The 'ConcreteDecorator' class
     /// </summary>
-    internal class Borrowable : Decorator
+    internal class Borrowable : ItemDecorator
     {
         private readonly List<string> borrowers = new List<string>();
 
-        public Borrowable(LibraryItem libraryItem) : base(libraryItem)
+        public Borrowable(LibraryItem libraryItem) 
+            : base(libraryItem)
         {
         }
 
         public void BorrowItem(string name)
         {
-            borrowers.Add(name);
+            this.borrowers.Add(name);
             LibraryItem.CopiesCount--;
         }
 
         public void ReturnItem(string name)
         {
-            borrowers.Remove(name);
+            this.borrowers.Remove(name);
             LibraryItem.CopiesCount++;
         }
 
@@ -30,9 +33,9 @@
         {
             base.Display();
 
-            foreach (var borrower in borrowers)
+            foreach (var borrower in this.borrowers)
             {
-                Console.WriteLine($" Borrower: {borrower}");
+                Console.WriteLine(PrintMessages.BorrowerPrintMessage, borrower);
             }
         }
     }

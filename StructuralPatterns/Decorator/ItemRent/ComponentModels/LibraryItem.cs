@@ -1,4 +1,4 @@
-﻿namespace Borrowable
+﻿namespace ItemRent
 {
     /// <summary>
     /// The 'Component' abstract class
