@@ -1,7 +1,9 @@
-﻿namespace Garage
-{
-    
+﻿namespace Garage.Models
+{    
     using System;
+
+    using Facade.Common;
+
     /// <summary>
     /// The 'Subsystem ClassB' class
     /// </summary>
@@ -9,7 +11,7 @@
     {
         public void SetEngine()
         {
-            Console.WriteLine(" CarEngine - SetEngine");
+            Console.WriteLine(PrintMessages.CarEnginePrintMessage);
         }
     }
 }

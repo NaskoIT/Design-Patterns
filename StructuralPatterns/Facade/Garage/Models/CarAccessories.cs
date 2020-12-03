@@ -1,7 +1,9 @@
-﻿namespace Garage
+﻿namespace Garage.Models
 {
     using System;
-    
+
+    using Facade.Common;
+
     /// <summary>
     /// The 'Subsystem ClassD' class
     /// </summary>
@@ -9,7 +11,7 @@
     {
         public void SetAccessories()
         {
-            Console.WriteLine(" CarAccessories - SetAccessories");
+            Console.WriteLine(PrintMessages.CarAccessoriesPrintMessage);
         }
     }
 }
