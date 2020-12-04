@@ -24,10 +24,10 @@
         {
             var sb = new StringBuilder();
 
-            sb.AppendFormat(PrintMessages.BookPrintMessage);
-            sb.AppendFormat(PrintMessages.PrintMessageTemplate, Constants.DisplayAuthor, this.author);
-            sb.AppendFormat(PrintMessages.PrintMessageTemplate, Constants.DisplayTitle, this.title);
-            sb.AppendFormat(PrintMessages.PrintMessageTemplate, Constants.DisplayCopies, base.CopiesCount);
+            sb.AppendFormat(PrintMessages.Book);
+            sb.AppendFormat(PrintMessages.Template, Constants.DisplayAuthor, this.author);
+            sb.AppendFormat(PrintMessages.Template, Constants.DisplayTitle, this.title);
+            sb.AppendFormat(PrintMessages.Template, Constants.DisplayCopies, base.CopiesCount);
 
             string result = sb.ToString().TrimEnd();
             Console.WriteLine(result);

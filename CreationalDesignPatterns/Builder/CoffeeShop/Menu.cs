@@ -17,9 +17,9 @@
 
         public void Print()
         {
-            Console.WriteLine(PrintMessages.MenuHotDrinkPrintMessage, this.HotDrink);
-            Console.WriteLine(PrintMessages.MenuColdDrinkPrintMessage, this.ColdDrink);
-            Console.WriteLine(PrintMessages.MenuDessertPrintMessage, this.Dessert);
+            Console.WriteLine(PrintMessages.MenuHotDrink, this.HotDrink);
+            Console.WriteLine(PrintMessages.MenuColdDrink, this.ColdDrink);
+            Console.WriteLine(PrintMessages.MenuDessert, this.Dessert);
         }
     }
 }

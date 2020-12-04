@@ -11,7 +11,7 @@
     {
         public void SetAccessories()
         {
-            Console.WriteLine(PrintMessages.CarAccessoriesPrintMessage);
+            Console.WriteLine(PrintMessages.CarAccessories);
         }
     }
 }

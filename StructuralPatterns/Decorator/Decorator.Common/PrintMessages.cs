@@ -2,13 +2,13 @@
 {
     public class PrintMessages
     {
-        public const string PrintMessageTemplate = " {0}: {1}\n";
-        public const string BorrowerPrintMessage = " Borrower: {0}";
+        public const string Template = " {0}: {1}\n";
+        public const string Borrower = " Borrower: {0}";
 
-        public const string VideoPrintMessage = "\nVideo ---------- \n";
-        public const string BookPrintMessage = "\nBook ---------- \n";
+        public const string Video = "\nVideo ---------- \n";
+        public const string Book = "\nBook ---------- \n";
 
-        public const string MakingBorrowablePrintMessage = "\nMaking {0} borrowable.";
-        public const string ReturnItemPrintMessage = "\n{0} returned the {1}.";
+        public const string MakingBorrowable = "\nMaking {0} borrowable.";
+        public const string ReturnItem = "\n{0} returned the {1}.";
     }
 }

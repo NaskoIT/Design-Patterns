@@ -11,7 +11,7 @@
     {
         public void SetModel()
         {
-            Console.WriteLine(PrintMessages.CarModelPrintMessage);
+            Console.WriteLine(PrintMessages.CarModel);
         }
     }
 }

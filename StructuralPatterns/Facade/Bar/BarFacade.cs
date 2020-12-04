@@ -25,7 +25,7 @@
         {
             Calculator calc = new Calculator();
             var sum = StringExtensions.ToCurrency(calc.Sum(order));
-            Console.WriteLine(PrintMessages.BarPrintMessage, sum);
+            Console.WriteLine(PrintMessages.Bar, sum);
         }
     }
 }

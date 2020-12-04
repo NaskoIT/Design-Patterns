@@ -16,7 +16,7 @@
             var video = new Video(Constants.DisplayNetConference, Constants.DisplayBlazor, 120, 22);
             video.Display();
 
-            Console.WriteLine(PrintMessages.MakingBorrowablePrintMessage, nameof(video).ToLower());
+            Console.WriteLine(PrintMessages.MakingBorrowable, nameof(video).ToLower());
 
             var borrowableVideo = new Borrowable(video);
             borrowableVideo.BorrowItem(Constants.FirstTestUser);
@@ -26,7 +26,7 @@
 
             borrowableVideo.ReturnItem(Constants.FirstTestUser);
 
-            Console.WriteLine(PrintMessages.ReturnItemPrintMessage, Constants.FirstTestUser, nameof(video).ToLower());
+            Console.WriteLine(PrintMessages.ReturnItem, Constants.FirstTestUser, nameof(video).ToLower());
             borrowableVideo.Display();
         }
     }

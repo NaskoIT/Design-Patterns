@@ -13,7 +13,7 @@
         {
             var coffeeTypes = Enum.GetValues(typeof(CoffeeType));
 
-            Console.WriteLine(PrintMessages.CoffeeTypesPrintMessage);
+            Console.WriteLine(PrintMessages.CoffeeTypes);
 
             foreach (var item in coffeeTypes)
             {
@@ -26,21 +26,21 @@
 
             while (true)
             {
-                Console.Write(PrintMessages.EnterCoffeeNumberPrintMessage);
+                Console.Write(PrintMessages.EnterCoffeeNumber);
                 bool isNum = int.TryParse(Console.ReadLine(), out coffeeNumber);
 
                 if (isNum)
                 {
                     if (coffeeNumber > coffeeTypes.Length || coffeeNumber < 1)
                     {
-                        Console.WriteLine(PrintMessages.InvalidCoffeeNumberPrintMessage);
+                        Console.WriteLine(PrintMessages.InvalidCoffeeNumber);
                         continue;
                     }
                     break;
                 }
                 else
                 {
-                    Console.WriteLine(PrintMessages.InvalidCoffeeNumberPrintMessage);
+                    Console.WriteLine(PrintMessages.InvalidCoffeeNumber);
                     continue;
                 }
             }

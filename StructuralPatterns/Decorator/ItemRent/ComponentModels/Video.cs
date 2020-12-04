@@ -26,11 +26,11 @@
         {
             var sb = new StringBuilder();
 
-            sb.AppendFormat(PrintMessages.VideoPrintMessage);
-            sb.AppendFormat(PrintMessages.PrintMessageTemplate, Constants.DisplayDirector, this.director);
-            sb.AppendFormat(PrintMessages.PrintMessageTemplate, Constants.DisplayTitle, this.title);
-            sb.AppendFormat(PrintMessages.PrintMessageTemplate, Constants.DisplayCopies, base.CopiesCount);
-            sb.AppendFormat(PrintMessages.PrintMessageTemplate, Constants.DisplayPlayTime, this.playTime);
+            sb.AppendFormat(PrintMessages.Video);
+            sb.AppendFormat(PrintMessages.Template, Constants.DisplayDirector, this.director);
+            sb.AppendFormat(PrintMessages.Template, Constants.DisplayTitle, this.title);
+            sb.AppendFormat(PrintMessages.Template, Constants.DisplayCopies, base.CopiesCount);
+            sb.AppendFormat(PrintMessages.Template, Constants.DisplayPlayTime, this.playTime);
 
             string result = sb.ToString().TrimEnd();
             Console.WriteLine(result);

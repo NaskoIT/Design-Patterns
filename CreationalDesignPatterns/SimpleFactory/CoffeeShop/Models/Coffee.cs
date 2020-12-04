@@ -14,7 +14,7 @@
 
         public void Print()
         {
-            Console.WriteLine(PrintMessages.CoffeeShopPrintMessage, this.Name, this.CoffeeContent, this.MilkContent);
+            Console.WriteLine(PrintMessages.CoffeeShop, this.Name, this.CoffeeContent, this.MilkContent);
         }
     }
 }

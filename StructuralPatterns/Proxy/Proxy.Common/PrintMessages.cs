@@ -2,6 +2,6 @@
 {
     public class PrintMessages
     {
-        public const string PickNumbersPrintMessage = "Pick two numbers:";
+        public const string PickNumbers = "Pick two numbers:";
     }
 }

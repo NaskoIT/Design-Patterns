@@ -2,6 +2,6 @@
 {
     public class PrintMessages
     {
-        public const string CafeteriaPrintMessage = "{0} costs {1}";
+        public const string Cafeteria = "{0} costs {1}";
     }
 }

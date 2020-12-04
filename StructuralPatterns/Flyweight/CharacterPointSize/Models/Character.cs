@@ -17,7 +17,7 @@
 
         public void Display(int pointSize)
         {
-            Console.WriteLine(PrintMessages.PointSizePrintMessage, this.Symbol, pointSize);
+            Console.WriteLine(PrintMessages.PointSize, this.Symbol, pointSize);
         }
     }
 }

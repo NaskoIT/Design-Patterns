@@ -32,6 +32,6 @@
 
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
 
-        public override string ToString() => string.Format(PrintMessages.EmployeePrintMessage, this.Id, this.Position);
+        public override string ToString() => string.Format(PrintMessages.Employee, this.Id, this.Position);
     }
 }

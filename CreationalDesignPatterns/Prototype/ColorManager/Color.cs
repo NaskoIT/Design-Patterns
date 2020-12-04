@@ -22,7 +22,7 @@
 
         public override ColorPrototype Clone()
         {
-            Console.WriteLine(PrintMessages.ClonningColorPrintMessage, this.ToString());
+            Console.WriteLine(PrintMessages.ClonningColor, this.ToString());
             return MemberwiseClone() as ColorPrototype;
         }
 

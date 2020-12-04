@@ -2,6 +2,6 @@
 {
     public class PrintMessages
     {
-        public const string ClonningColorPrintMessage = "Clonning color {0}";
+        public const string ClonningColor = "Clonning color {0}";
     }
 }

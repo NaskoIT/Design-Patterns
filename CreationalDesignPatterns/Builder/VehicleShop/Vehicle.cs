@@ -27,11 +27,11 @@
         public void Show()
         {
             Console.WriteLine($"\n{new string('-', 30)}");
-            Console.WriteLine(PrintMessages.VehicleTypePrintMessage, vehicleType);
-            Console.WriteLine(PrintMessages.FramePrintMessage, parts[Constants.DisplayFrame.ToLower()]);
-            Console.WriteLine(PrintMessages.EnginePrintMessage, parts[Constants.VehiclePartEngine]);
-            Console.WriteLine(PrintMessages.WheelsPrintMessage, parts[Constants.VehiclePartWheels]);
-            Console.WriteLine(PrintMessages.DoorsPrintMessage, parts[Constants.VehiclePartDoors]);
+            Console.WriteLine(PrintMessages.VehicleType, vehicleType);
+            Console.WriteLine(PrintMessages.Frame, parts[Constants.DisplayFrame.ToLower()]);
+            Console.WriteLine(PrintMessages.Engine, parts[Constants.VehiclePartEngine]);
+            Console.WriteLine(PrintMessages.Wheels, parts[Constants.VehiclePartWheels]);
+            Console.WriteLine(PrintMessages.Doors, parts[Constants.VehiclePartDoors]);
         }
     }
 }

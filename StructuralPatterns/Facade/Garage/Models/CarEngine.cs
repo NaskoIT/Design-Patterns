@@ -11,7 +11,7 @@
     {
         public void SetEngine()
         {
-            Console.WriteLine(PrintMessages.CarEnginePrintMessage);
+            Console.WriteLine(PrintMessages.CarEngine);
         }
     }
 }

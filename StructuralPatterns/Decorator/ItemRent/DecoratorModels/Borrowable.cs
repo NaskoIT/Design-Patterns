@@ -35,7 +35,7 @@
 
             foreach (var borrower in this.borrowers)
             {
-                Console.WriteLine(PrintMessages.BorrowerPrintMessage, borrower);
+                Console.WriteLine(PrintMessages.Borrower, borrower);
             }
         }
     }

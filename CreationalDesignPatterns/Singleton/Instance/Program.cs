@@ -11,7 +11,7 @@
             SingletonInstance singletonOne = SingletonInstance.GetInstance();
             SingletonInstance singletonTwo = SingletonInstance.GetInstance();
 
-            Console.WriteLine(PrintMessages.InstancePrintMessage, singletonOne == singletonTwo);
+            Console.WriteLine(PrintMessages.Instance, singletonOne == singletonTwo);
         }
     }
 }

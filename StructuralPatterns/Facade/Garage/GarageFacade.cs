@@ -25,14 +25,14 @@
 
         public void CreateCompleteCar()
         {
-            Console.WriteLine(PrintMessages.CreatingCarPrintMessage);
+            Console.WriteLine(PrintMessages.CreatingCar);
 
             model.SetModel();
             engine.SetEngine();
             body.SetBody();
             accessories.SetAccessories();
 
-            Console.WriteLine(PrintMessages.CreatedCarPrintMessage);
+            Console.WriteLine(PrintMessages.CreatedCar);
         }
     }
 }

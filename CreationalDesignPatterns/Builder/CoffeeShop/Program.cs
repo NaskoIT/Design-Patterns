@@ -20,12 +20,12 @@
             coffeeShop.Construct(italianMenuBuilder);
             Menu italianMenu = italianMenuBuilder.GetMenu();
 
-            Console.WriteLine(PrintMessages.FrenchBreakfastMenuPrintMessage);
+            Console.WriteLine(PrintMessages.FrenchBreakfastMenu);
             frenchMenu.Print();
 
             Console.WriteLine();
 
-            Console.WriteLine(PrintMessages.ItalianBreakfastMenuPrintMessage);
+            Console.WriteLine(PrintMessages.ItalianBreakfast);
             italianMenu.Print();
         }
     }

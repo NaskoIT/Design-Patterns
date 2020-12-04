@@ -8,7 +8,7 @@
     {
         public static void Main()
         {
-            Console.WriteLine(PrintMessages.PickNumbersPrintMessage);
+            Console.WriteLine(PrintMessages.PickNumbers);
 
             int firstNum = int.Parse(Console.ReadLine());
             int secondNum = int.Parse(Console.ReadLine());

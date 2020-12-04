@@ -11,7 +11,7 @@
     {
         public void SetBody()
         {
-            Console.WriteLine(PrintMessages.CarBodyPrintMessage);
+            Console.WriteLine(PrintMessages.CarBody);
         }
     }
 }

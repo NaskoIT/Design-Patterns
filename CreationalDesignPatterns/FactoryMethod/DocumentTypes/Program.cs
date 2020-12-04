@@ -22,7 +22,7 @@
                 for (int i = 0; i < document.Pages.Count; i++)
                 {
                     var pageTypeName = document.Pages[i].GetType().Name;
-                    Console.WriteLine(PrintMessages.PageTypePrintMessage, i + 1, pageTypeName);
+                    Console.WriteLine(PrintMessages.PageType, i + 1, pageTypeName);
                 }
             }
         }

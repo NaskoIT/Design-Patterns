@@ -11,18 +11,18 @@
             int objectsCount = Constants.ObjectsCount;
             object[] logObjects = CreateObjects(() => Log.Instance, objectsCount);
             bool logObjectsAreEqual = ObjectsAreEqual(logObjects);
-            Console.WriteLine(PrintMessages.AllCreatedObjectsPrintMessage, nameof(Log), logObjectsAreEqual);
+            Console.WriteLine(PrintMessages.AllCreatedObjects, nameof(Log), logObjectsAreEqual);
 
             Console.WriteLine(new string('-', 50));
 
             object[] loggerObjects = CreateObjects(() => Logger.Instance, objectsCount);
             bool loggerObjectsAreEqual = ObjectsAreEqual(loggerObjects);
-            Console.WriteLine(PrintMessages.AllCreatedObjectsPrintMessage, nameof(Logger), loggerObjectsAreEqual);
+            Console.WriteLine(PrintMessages.AllCreatedObjects, nameof(Logger), loggerObjectsAreEqual);
 
             Console.WriteLine(new string('-', 50));
 
             //Second implementation usnig static constructor demo
-            Logger.Instance.Log(PrintMessages.SuccesfullyImpementedPrintMessage);
+            Logger.Instance.Log(PrintMessages.SuccesfullyImpemented);
         }
 
         private static object[] CreateObjects(Func<object> objectFactory, int objectsCount)

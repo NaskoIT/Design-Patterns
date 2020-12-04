@@ -22,7 +22,7 @@
                 Pizza pizza = factory.CreatePizza();
 
                 var factoryName = factory.GetType().Name;
-                Console.WriteLine(PrintMessages.PizzaFactoryPrintMessage, pizza.Description, factoryName);
+                Console.WriteLine(PrintMessages.PizzaFactory, pizza.Description, factoryName);
             }
         }
     }

@@ -25,7 +25,7 @@
             foreach (DessertInfo dessertInfo in desserts)
             {
                 var price = StringExtensions.ToCurrency(dessertInfo.Price);
-                Console.WriteLine(PrintMessages.CafeteriaPrintMessage, dessertInfo.Name, price);
+                Console.WriteLine(PrintMessages.Cafeteria, dessertInfo.Name, price);
             }
         }
     }
