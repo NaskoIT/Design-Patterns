@@ -2,7 +2,7 @@
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             Stock ibm = new IBM("IBM", 120.2);
             var firstInvestor = new Investor("Investor #1");

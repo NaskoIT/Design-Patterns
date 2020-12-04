@@ -2,6 +2,8 @@
 {
     using System;
 
+    using Command.Common;
+
     /// <summary>
     /// The 'Receiver' class
     /// </summary>
@@ -9,12 +11,12 @@
     {
         public void TurnOn()
         {
-            Console.WriteLine("The light is on!");
+            Console.WriteLine(PrintMessages.LightOn);
         }
 
         public void TurnOff()
         {
-            Console.WriteLine("The light is off!");
+            Console.WriteLine(PrintMessages.LightOff);
         }
     }
 }
