@@ -3,9 +3,9 @@
     /// <summary>
     /// The 'Memento' class
     /// </summary>
-    public class Memento
+    public class ProspectMemento
     {
-        public Memento(string name, string phone, double budget)
+        public ProspectMemento(string name, string phone, double budget)
         {
             this.Name = name;
             this.Phone = phone;

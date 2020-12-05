@@ -1,5 +1,7 @@
-﻿namespace EmployeeAdministration
+﻿namespace EmployeeAdministration.ElementModels
 {
+    using EmployeeAdministration.VisitorModels;
+
     /// <summary>
     /// The 'ConcreteElement' class
     /// </summary>
@@ -7,9 +9,9 @@
     {
         public Employee(string name, double income, int vacationDays)
         {
-            Name = name;
-            Income = income;
-            VacationDays = vacationDays;
+            this.Name = name;
+            this.Income = income;
+            this.VacationDays = vacationDays;
         }
 
         public string Name { get; set; }

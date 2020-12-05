@@ -1,5 +1,7 @@
-﻿namespace EmployeeAdministration
+﻿namespace EmployeeAdministration.ElementModels
 {
+    using EmployeeAdministration.VisitorModels;
+
     /// <summary>
     /// The 'Element' abstract class
     /// </summary>

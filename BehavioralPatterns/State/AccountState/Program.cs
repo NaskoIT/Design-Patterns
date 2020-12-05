@@ -1,5 +1,7 @@
 ﻿namespace AccountState
 {
+    using AccountState.Models;
+
     public class Program
     {
         public static void Main()

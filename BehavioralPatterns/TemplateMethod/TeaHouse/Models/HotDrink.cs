@@ -1,15 +1,17 @@
 ﻿namespace TeaHouse
 {
     using System;
-    
+
+    using TemplateMethod.Common;
+
     public abstract class HotDrink
     {
         public void PrepareRecipe()
         {
-            BoilWater();
-            Brew();
-            PourInCup();
-            AddSpices();
+            this.BoilWater();
+            this.Brew();
+            this.PourInCup();
+            this.AddSpices();
         }
 
         public abstract void Brew();
@@ -18,12 +20,12 @@
 
         public void BoilWater()
         {
-            Console.WriteLine("Water reached 100 degrees.");
+            Console.WriteLine(PrintMessages.WaterBoil);
         }
 
         public void PourInCup()
         {
-            Console.WriteLine("Drink poured in a cup!");
+            Console.WriteLine(PrintMessages.DrinkPour);
         }
     }
 }

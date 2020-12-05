@@ -1,4 +1,4 @@
-﻿namespace InvestorStocks
+﻿namespace InvestorStocks.Models
 {
     /// <summary>
     /// The 'Observer' interface

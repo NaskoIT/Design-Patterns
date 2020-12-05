@@ -1,4 +1,4 @@
-﻿namespace SortTypes
+﻿namespace SortTypes.Models
 {
     using System.Collections.Generic;
 

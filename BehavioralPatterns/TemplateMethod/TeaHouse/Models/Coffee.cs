@@ -2,16 +2,18 @@
 {
     using System;
 
+    using TemplateMethod.Common;
+
     public class Coffee : HotDrink
     {
         public override void AddSpices()
         {
-            Console.WriteLine("Add cream to the coffee!");
+            Console.WriteLine(PrintMessages.AddCream);
         }
 
         public override void Brew()
         {
-            Console.WriteLine("Add coffee grains in the water!");
+            Console.WriteLine(PrintMessages.AddCoffee);
         }
     }
 }

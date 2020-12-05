@@ -18,9 +18,9 @@
 
         public double Budget { get; set; }
 
-        public Memento SaveMemento() => new Memento(this.Name, this.Phone, this.Budget);
+        public ProspectMemento SaveMemento() => new ProspectMemento(this.Name, this.Phone, this.Budget);
 
-        public void RestoreMemento(Memento memento)
+        public void RestoreMemento(ProspectMemento memento)
         {
             this.Name = memento.Name;
             this.Phone = memento.Phone;

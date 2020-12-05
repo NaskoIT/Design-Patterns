@@ -1,6 +1,9 @@
-﻿namespace EmployeeAdministration
+﻿namespace EmployeeAdministration.VisitorModels
 {
     using System;
+
+    using EmployeeAdministration.ElementModels;
+    using Visitor.Common;
 
     /// <summary>
     /// The 'ConcreteVisitor' class
@@ -12,7 +15,7 @@
             if (element is Employee employee)
             {
                 employee.Income *= 1.1;
-                Console.WriteLine($"{employee.GetType().Name} has new income: {employee.Income:F2}");
+                Console.WriteLine(PrintMessages.NewIncome, employee.GetType().Name, employee.Name, employee.Income);
             }
         }
     }

@@ -1,6 +1,9 @@
-﻿namespace EmployeeAdministration
+﻿namespace EmployeeAdministration.VisitorModels
 {
     using System;
+
+    using EmployeeAdministration.ElementModels;
+    using Visitor.Common;
 
     /// <summary>
     /// The 'ConcreteVisitor' class
@@ -12,7 +15,7 @@
             if (element is Employee employee)
             {
                 employee.VacationDays += 3;
-                Console.WriteLine($"{employee.GetType().Name} {employee.Name} has new vacation days: {employee.VacationDays}\n");
+                Console.WriteLine(PrintMessages.NewVacationDays, employee.GetType().Name, employee.Name, employee.VacationDays);
             }
         }
     }

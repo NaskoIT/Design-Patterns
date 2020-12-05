@@ -1,9 +1,9 @@
-﻿namespace AccountState
+﻿namespace AccountState.Models
 {
     /// <summary>
     /// The 'State' abstract class
     /// </summary>
-    public abstract class State
+    public abstract class AccountState
     {
         protected double Interest { get; set; }
 

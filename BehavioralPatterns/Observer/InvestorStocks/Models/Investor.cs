@@ -1,6 +1,8 @@
-﻿namespace InvestorStocks
+﻿namespace InvestorStocks.Models
 {
     using System;
+
+    using Observer.Common;
 
     /// <summary>
     /// The 'ConcreteObserver' class
@@ -16,7 +18,7 @@
 
         public void Update(Stock stock)
         {
-            Console.WriteLine($"Notified {name} of {stock.Symbol}'s change to {stock.Price}");
+            Console.WriteLine(PrintMessages.NotifyChange, this.name, stock.Symbol, stock.Price);
         }
     }
 }

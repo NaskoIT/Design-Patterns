@@ -1,11 +1,12 @@
-﻿namespace InvestorStocks
+﻿namespace InvestorStocks.Models
 {
     /// <summary>
     /// The 'ConcreteSubject' class
     /// </summary>
     public class IBM : Stock
     {
-        public IBM(string symbol, double price) : base(symbol, price)
+        public IBM(string symbol, double price) 
+            : base(symbol, price)
         {
         }
     }

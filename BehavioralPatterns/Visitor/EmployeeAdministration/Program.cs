@@ -3,9 +3,13 @@
     using System;
     using System.Collections.Generic;
 
+    using EmployeeAdministration.ElementModels;
+    using EmployeeAdministration.VisitorModels;
+    using Visitor.Common;
+
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             var employees = new List<Employee>
             {
@@ -16,11 +20,12 @@
 
             foreach (var employee in employees)
             {
-                Console.WriteLine($"{employee.GetType().Name} has vacation days: {employee.VacationDays}");
-                Console.WriteLine($"{employee.GetType().Name} has income: {employee.Income}\n");
+                var empType = employee.GetType().Name;
+                Console.WriteLine(PrintMessages.VacationDays, empType, employee.VacationDays);
+                Console.WriteLine(PrintMessages.Income, empType, employee.Income);
             }
 
-            Console.WriteLine($"Visiting employees with {nameof(IncomeVisitor)} and {nameof(VacationVisitor)}\n");
+            Console.WriteLine(PrintMessages.VisitingEmployees, nameof(IncomeVisitor), nameof(VacationVisitor));
 
             foreach (var employee in employees)
             {

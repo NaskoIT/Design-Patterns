@@ -5,6 +5,6 @@
     /// </summary>
     public class ProspectMemory
     {
-        public Memento Memento { get; set; }
+        public ProspectMemento Memento { get; set; }
     }
 }

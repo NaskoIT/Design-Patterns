@@ -1,5 +1,7 @@
-﻿namespace EmployeeAdministration
+﻿namespace EmployeeAdministration.VisitorModels
 {
+    using EmployeeAdministration.ElementModels;
+
     /// <summary>
     /// The 'Visitor' interface
     /// </summary>

@@ -1,8 +1,10 @@
 ﻿namespace SortTypes
 {
+    using SortTypes.Models;
+
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             SortStrategy<int> quickSort = new QuickSort<int>();
             SortedList<int> numbers = new SortedList<int>();

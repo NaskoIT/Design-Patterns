@@ -2,6 +2,6 @@
 {
     public class PrintMessages
     {
-        public const string CoffeeShopPrintMessage = "{0} contains {1} ml coffee and {2} ml milk";
+        public const string NotifyChange = "Notified {0} of {1}'s change to {2}";
     }
 }

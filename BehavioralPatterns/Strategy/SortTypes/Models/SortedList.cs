@@ -1,4 +1,4 @@
-﻿namespace SortTypes
+﻿namespace SortTypes.Models
 {
     using System.Collections.Generic;
 
@@ -8,12 +8,12 @@
 
         public SortedList()
         {
-            items = new List<T>();
+            this.items = new List<T>();
         }
 
         public void Sort(SortStrategy<T> sortStrategy)
         {
-            sortStrategy.Sort(items);
+            sortStrategy.Sort(this.items);
         }
     }
 }
