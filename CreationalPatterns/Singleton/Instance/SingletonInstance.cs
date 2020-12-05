@@ -1,5 +1,8 @@
 ﻿namespace Instance
 {
+    /// <summary>
+    /// The 'Singleton' class
+    /// </summary>
     public class SingletonInstance
     {
         // eager loading

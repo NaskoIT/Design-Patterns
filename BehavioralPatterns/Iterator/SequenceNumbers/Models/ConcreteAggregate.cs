@@ -4,6 +4,9 @@
 
     using SequenceNumbers.Contracts;
 
+    /// <summary>
+    /// The 'ConcreteAggregate' class
+    /// </summary>
     public class ConcreteAggregate<T> : IAggregate<T>
     {
         private readonly List<T> items = new List<T>();

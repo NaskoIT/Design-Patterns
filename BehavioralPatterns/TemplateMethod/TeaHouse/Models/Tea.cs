@@ -4,6 +4,9 @@
 
     using TemplateMethod.Common;
 
+    /// <summary>
+    /// A 'ConcreteClass' class
+    /// </summary>
     public class Tea : HotDrink
     {
         public override void AddSpices()

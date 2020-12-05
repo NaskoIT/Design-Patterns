@@ -1,7 +1,11 @@
 ﻿namespace CoffeeShop.Factories
 {
-    using CoffeeShop.Models;
+    using CoffeeShop.AbstractProductModels;
+    using CoffeeShop.ProductModels;
 
+    /// <summary>
+    /// The 'ConcreteFactory' class
+    /// </summary>
     public class FrenchCoffeeFactory : CoffeeFactory
     {
         public override PlainCoffee GetPlainCoffee() => new DoubleCoffee();

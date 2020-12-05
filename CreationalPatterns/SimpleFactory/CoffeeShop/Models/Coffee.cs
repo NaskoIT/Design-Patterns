@@ -4,6 +4,9 @@
 
     using SimpleFactory.Common;
 
+    /// <summary>
+    /// The 'AbstractProduct' abstract class
+    /// </summary>
     public abstract class Coffee
     {
         public abstract string Name { get; }

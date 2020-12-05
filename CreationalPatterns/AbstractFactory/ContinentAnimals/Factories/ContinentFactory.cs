@@ -1,9 +1,11 @@
 ﻿namespace ContinentAnimals.Factories
 {
     using System;
+    using ContinentAnimals.AbstractProductModels;
 
-    using ContinentAnimals.Models;
-
+    /// <summary>
+    /// The 'AbstractFactory' abstract class
+    /// </summary>
     public abstract class ContinentFactory
     {
         public abstract Herbivore CreateHerbivore();

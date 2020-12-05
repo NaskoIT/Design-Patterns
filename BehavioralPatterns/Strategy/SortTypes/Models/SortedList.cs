@@ -6,6 +6,9 @@
     {
         private readonly List<T> items;
 
+        /// <summary>
+        /// The 'Context' class
+        /// </summary>
         public SortedList()
         {
             this.items = new List<T>();

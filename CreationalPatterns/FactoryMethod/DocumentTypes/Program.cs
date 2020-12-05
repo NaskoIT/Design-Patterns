@@ -2,7 +2,7 @@
 {
     using System;
 
-    using DocumentTypes.Documents;
+    using DocumentTypes.CreatorModels;
     using FactoryMethod.Common;
 
     public class Program

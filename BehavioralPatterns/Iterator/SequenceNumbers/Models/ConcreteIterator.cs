@@ -4,6 +4,9 @@
 
     using SequenceNumbers.Contracts;
 
+    /// <summary>
+    /// The 'ConcreteIterator' class
+    /// </summary>
     public class ConcreteIterator<T> : IIterator<T>
     {
         private readonly ConcreteAggregate<T> aggregate;

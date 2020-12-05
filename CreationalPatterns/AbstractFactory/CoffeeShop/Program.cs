@@ -1,7 +1,7 @@
 ﻿namespace CoffeeShop
 {
+    using CoffeeShop.AbstractProductModels;
     using CoffeeShop.Factories;
-    using CoffeeShop.Models;
 
     public class Program
     {

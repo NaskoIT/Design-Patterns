@@ -5,6 +5,9 @@
     using CoffeeShop.Enums;
     using CoffeeShop.Models;
 
+    /// <summary>
+    /// The 'SimpleFactory' class
+    /// </summary>
     public static class CoffeeFactory
     {
         public static Coffee GetCoffee(CoffeeType coffeType)

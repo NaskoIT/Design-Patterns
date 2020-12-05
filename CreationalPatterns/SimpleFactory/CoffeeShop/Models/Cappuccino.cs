@@ -2,6 +2,9 @@
 {
     using SimpleFactory.Common;
 
+    /// <summary>
+    /// The 'Product' class
+    /// </summary>
     public class Cappuccino : Coffee
     {
         public override string Name => Constants.DisplayCappuccino;
