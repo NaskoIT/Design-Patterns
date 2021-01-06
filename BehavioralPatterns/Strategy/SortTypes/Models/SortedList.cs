@@ -2,13 +2,13 @@
 {
     using System.Collections.Generic;
 
+    /// <summary>
+    /// The 'Context' class
+    /// </summary>
     public class SortedList<T>
     {
         private readonly List<T> items;
 
-        /// <summary>
-        /// The 'Context' class
-        /// </summary>
         public SortedList()
         {
             this.items = new List<T>();
