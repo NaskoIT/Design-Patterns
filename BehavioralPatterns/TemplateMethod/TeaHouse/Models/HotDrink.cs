@@ -4,6 +4,9 @@
 
     using TemplateMethod.Common;
 
+    /// <summary>
+    /// The 'AbstractClass' abstract class
+    /// </summary>
     public abstract class HotDrink
     {
         public void PrepareRecipe()

@@ -2,6 +2,9 @@
 {
     using RestaurantComplaint.Enums;
 
+    /// <summary>
+    /// The 'ConcreteHandler' class
+    /// </summary>
     public class Waiter : Employee
     {
         public Waiter(Priority level)

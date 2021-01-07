@@ -1,6 +1,7 @@
 ﻿namespace InvestorStocks
 {
-    using InvestorStocks.Models;
+    using InvestorStocks.ObserverModels;
+    using InvestorStocks.SubjectModels;
     using Observer.Common;
 
     public class Program

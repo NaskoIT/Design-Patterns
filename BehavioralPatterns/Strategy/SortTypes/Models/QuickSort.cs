@@ -5,6 +5,9 @@
 
     using Strategy.Common;
 
+    /// <summary>
+    /// A 'ConcreteStrategy' class
+    /// </summary>
     public class QuickSort<T> : SortStrategy<T>
     {
         public override void Sort(IEnumerable<T> collection)

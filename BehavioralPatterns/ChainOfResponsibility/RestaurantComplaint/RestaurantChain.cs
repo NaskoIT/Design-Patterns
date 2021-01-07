@@ -3,6 +3,9 @@
     using RestaurantComplaint.Enums;
     using RestaurantComplaint.Models;
 
+    /// <summary>
+    /// The 'Client' class
+    /// </summary>
     public class RestaurantChain
     {
         public static Employee GetEmployee()

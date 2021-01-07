@@ -3,8 +3,8 @@
     using System.Collections.Generic;
 
     using Bridge.Common;
-    using ManuscriptMaker.Core;
-    using ManuscriptMaker.Models;
+    using ManuscriptMaker.AbstractionModels;
+    using ManuscriptMaker.ImplementatorModels;
 
     public class Program
     {

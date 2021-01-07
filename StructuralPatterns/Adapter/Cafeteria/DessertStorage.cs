@@ -10,7 +10,7 @@
     /// </summary>
     public class DessertStorage
     {
-        private List<Dessert> desserts;
+        private readonly List<Dessert> desserts;
 
         public DessertStorage()
         {

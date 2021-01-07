@@ -4,6 +4,9 @@
 
     using RestaurantComplaint.Enums;
 
+    /// <summary>
+    /// The 'Handler' abstract class
+    /// </summary>
     public abstract class Employee
     {
         protected Priority level;

@@ -9,7 +9,7 @@
     /// </summary>
     public class DessertsAdapter
     {
-        private DessertStorage dessertShop;
+        private readonly DessertStorage dessertShop;
 
         public DessertsAdapter()
         {

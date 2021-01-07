@@ -2,6 +2,9 @@
 {
     using System.Collections.Generic;
 
+    /// <summary>
+    /// The 'Context' class
+    /// </summary>
     public class SortedList<T>
     {
         private readonly List<T> items;
