@@ -6,7 +6,7 @@
     {
         public static void Main()
         {
-            Shop shop = new Shop();
+            Shop shop = new();
 
             var builders = new VehicleBuilder[]
             {

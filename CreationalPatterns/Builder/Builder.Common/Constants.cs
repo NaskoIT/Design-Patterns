@@ -12,7 +12,7 @@
         public const string DisplayCar = "Car";
         public const string DisplayMotorcycle = "Motorcycle";
         public const string DisplayScooter = "Scooter";
-        public const string DisplayFrame = "Frame";
+        public const string DisplayFrame = "frame";
         public const string VehiclePartDoors = "doors";
         public const string VehiclePartEngine = "engine";
         public const string VehiclePartWheels = "wheels";

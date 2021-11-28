@@ -7,7 +7,7 @@
     /// </summary>
     public class ItalianBreakfastBuilder : IMenuBuilder
     {
-        private Menu menu;
+        private readonly Menu menu;
 
         public ItalianBreakfastBuilder()
         {

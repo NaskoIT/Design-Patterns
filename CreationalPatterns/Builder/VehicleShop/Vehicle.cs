@@ -11,7 +11,7 @@
     public class Vehicle
     {
         private readonly string vehicleType;
-        private readonly Dictionary<string, string> parts = new Dictionary<string, string>();
+        private readonly Dictionary<string, string> parts = new();
 
         public Vehicle(string vehicleType)
         {
@@ -26,9 +26,9 @@
 
         public void Show()
         {
-            Console.WriteLine($"\n{new string('-', 30)}");
+            Console.WriteLine($"{Environment.NewLine}{new string('-', 30)}");
             Console.WriteLine(PrintMessages.VehicleType, vehicleType);
-            Console.WriteLine(PrintMessages.Frame, parts[Constants.DisplayFrame.ToLower()]);
+            Console.WriteLine(PrintMessages.Frame, parts[Constants.DisplayFrame]);
             Console.WriteLine(PrintMessages.Engine, parts[Constants.VehiclePartEngine]);
             Console.WriteLine(PrintMessages.Wheels, parts[Constants.VehiclePartWheels]);
             Console.WriteLine(PrintMessages.Doors, parts[Constants.VehiclePartDoors]);

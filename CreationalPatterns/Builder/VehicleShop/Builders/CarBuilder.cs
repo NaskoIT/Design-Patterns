@@ -26,7 +26,7 @@
 
         public override VehicleBuilder BuildFrame()
         {
-            Vehicle[Constants.DisplayFrame.ToLower()] = Constants.DisplayCar + " " + Constants.DisplayFrame;
+            Vehicle[Constants.DisplayFrame] = Constants.DisplayCar + " " + Constants.DisplayFrame;
             return this;
         }
 
