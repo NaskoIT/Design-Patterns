@@ -50,13 +50,10 @@
 
                 for (int j = 0; j < objects.Length; j++)
                 {
-                    if (i != j)
+                    if (i != j && !objects[i].Equals(objects[j]))
                     {
-                        if (!objects[i].Equals(objects[j]))
-                        {
-                            objectsAreEqual = false;
-                            break;
-                        }
+                        objectsAreEqual = false;
+                        break;
                     }
                 }
             }

@@ -11,22 +11,22 @@
         private Log()
         {
         }
-         
-        public static Log Instance 
-        { 
+
+        public static Log Instance
+        {
             get
             {
-                if(instance == null)
+                if (instance == null)
                 {
-                    lock(lockObject)
+                    lock (lockObject)
                     {
-                        if(instance == null)
+                        if (instance == null)
                         {
                             instance = new Log();
                         }
                     }
                 }
-                 
+
                 return instance;
             }
         }

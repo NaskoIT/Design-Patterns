@@ -15,6 +15,7 @@
             {
                 instance = new SingletonInstance();
             }
+
             return instance;
         }
     }
