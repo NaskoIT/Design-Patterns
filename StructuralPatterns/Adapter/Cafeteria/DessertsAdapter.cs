@@ -16,18 +16,19 @@
             this.dessertShop = new DessertStorage();
         }
 
-        public List<DessertInfo> GetDessertsList()
+        public IList<DessertInfo> GetDessertsList()
         {
             List<Dessert> desserts = this.dessertShop.GetDesserts();
-            List<DessertInfo> dessertsList = new List<DessertInfo>();
+            List<DessertInfo> dessertsList = new();
 
             foreach (Dessert dessert in desserts)
             {
-                DessertInfo dessertInfo = new DessertInfo
+                DessertInfo dessertInfo = new()
                 {
                     Name = dessert.Name,
                     Price = dessert.Price
                 };
+
                 dessertsList.Add(dessertInfo);
             }
 

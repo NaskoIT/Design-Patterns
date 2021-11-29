@@ -4,7 +4,7 @@
     {
         public static void Main()
         {
-            CoffeeShop coffeeShop = new CoffeeShop();
+            CoffeeShop coffeeShop = new();
             coffeeShop.DisplayDesserts();
         }
     }

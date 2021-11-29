@@ -20,7 +20,7 @@
 
         public void DisplayDesserts()
         {
-            List<DessertInfo> desserts = this.dessertsAdapter.GetDessertsList();
+            IList<DessertInfo> desserts = this.dessertsAdapter.GetDessertsList();
 
             foreach (DessertInfo dessertInfo in desserts)
             {
