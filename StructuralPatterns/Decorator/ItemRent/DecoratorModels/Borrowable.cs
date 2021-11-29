@@ -10,7 +10,7 @@
     /// </summary>
     internal class Borrowable : ItemDecorator
     {
-        private readonly List<string> borrowers = new List<string>();
+        private readonly List<string> borrowers = new();
 
         public Borrowable(LibraryItem libraryItem) 
             : base(libraryItem)
@@ -19,6 +19,11 @@
 
         public void BorrowItem(string name)
         {
+            if(LibraryItem.CopiesCount == 0)
+            {
+                throw new InvalidOperationException(ErrorMessages.NotEnoughCopies);
+            }
+
             this.borrowers.Add(name);
             LibraryItem.CopiesCount--;
         }

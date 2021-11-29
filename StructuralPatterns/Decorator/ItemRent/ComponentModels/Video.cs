@@ -33,6 +33,7 @@
             sb.AppendFormat(PrintMessages.Template, Constants.DisplayPlayTime, this.playTime);
 
             string result = sb.ToString().TrimEnd();
+
             Console.WriteLine(result);
         }
     }

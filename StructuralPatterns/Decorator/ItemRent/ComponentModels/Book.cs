@@ -30,6 +30,7 @@
             sb.AppendFormat(PrintMessages.Template, Constants.DisplayCopies, base.CopiesCount);
 
             string result = sb.ToString().TrimEnd();
+
             Console.WriteLine(result);
 
         }
