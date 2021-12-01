@@ -10,7 +10,7 @@
     /// </summary>
     public class CharacterFactory
     {
-        private readonly Dictionary<char, Character> characters = new Dictionary<char, Character>();
+        private readonly Dictionary<char, Character> characters = new();
 
         public Character GetCharacter(char key)
         {
