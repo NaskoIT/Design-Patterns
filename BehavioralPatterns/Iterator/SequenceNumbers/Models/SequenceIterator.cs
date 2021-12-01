@@ -9,12 +9,12 @@
     /// </summary>
     public class SequenceIterator<T> : IIterator<T>
     {
-        private readonly Sequence<T> aggregate;
+        private readonly Sequence<T> sequence;
         private int index;
 
-        public SequenceIterator(Sequence<T> aggregate)
+        public SequenceIterator(Sequence<T> sequence)
         {
-            this.aggregate = aggregate;
+            this.sequence = sequence;
             this.index = -1;
         }
 
@@ -22,9 +22,9 @@
         {
             get
             {
-                if (this.index < this.aggregate.Count)
+                if (this.index < this.sequence.Count)
                 {
-                    return this.aggregate[index];
+                    return this.sequence[index];
                 }
                 else
                 {
@@ -36,7 +36,7 @@
         public bool Next()
         {
             this.index++;
-            return this.index < this.aggregate.Count;
+            return this.index < this.sequence.Count;
         }
     }
 }
