@@ -5,12 +5,12 @@
     /// </summary>
     internal abstract class Approver
     {
-        public void SetSuccessor(Approver successor)
+        public void SetNext(Approver next)
         {
-            this.Successor = successor;
+            this.Next = next;
         }
 
-        protected Approver Successor { get; set; }
+        protected Approver Next { get; set; }
 
         public abstract void ProcessRequest(Purchase purchase);
     }

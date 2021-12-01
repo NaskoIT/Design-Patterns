@@ -10,8 +10,8 @@
             Approver vicePresident = new VicePresident();
             Approver president = new President();
 
-            teamLead.SetSuccessor(vicePresident);
-            vicePresident.SetSuccessor(president);
+            teamLead.SetNext(vicePresident);
+            vicePresident.SetNext(president);
 
             var purchase = new Purchase(350, 1);
             teamLead.ProcessRequest(purchase);

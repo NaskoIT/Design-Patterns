@@ -15,9 +15,9 @@
             {
                 Console.WriteLine(PrintMessages.ApproveRequestTemplate, nameof(VicePresident), purchase.Number);
             }
-            else if (base.Successor != null)
+            else if (base.Next != null)
             {
-                base.Successor.ProcessRequest(purchase);
+                base.Next.ProcessRequest(purchase);
             }
         }
     }
