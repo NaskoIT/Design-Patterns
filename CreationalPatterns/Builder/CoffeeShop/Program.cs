@@ -9,7 +9,7 @@
     {
         public static void Main()
         {
-            Shop coffeeShop = new Shop();
+            Shop coffeeShop = new();
 
             IMenuBuilder frenchMenuBuilder = new FrenchBreakfastBuilder();
             IMenuBuilder italianMenuBuilder = new ItalianBreakfastBuilder();

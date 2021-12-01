@@ -10,6 +10,5 @@
         public const int ContentZeroMl = 0;
         public const int ContentHundredMl = 100;
         public const int ContentTwoHundredMl = 200;
-        public const int ObjectsCount = 10000;
     }
 }

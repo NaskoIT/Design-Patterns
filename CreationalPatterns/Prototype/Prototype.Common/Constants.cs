@@ -2,8 +2,8 @@
 {
     public class Constants
     {
-        public const string ColorRed = "red";
-        public const string ColorGreen = "green";
-        public const string ColorBlue = "blue";
+        public const string RedColor = "red";
+        public const string GeenColor = "green";
+        public const string BlueColor = "blue";
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace ColorCloning.Models
+﻿using System;
+
+namespace ColorCloning.Models
 {
     /// <summary>
     ///  The 'Prototype' abstract class
