@@ -6,7 +6,7 @@
     public class SingletonInstance
     {
         // eager loading
-        //private readonly Singleton instance = new Singleton();
+        // private static readonly SingletonInstance instance = new SingletonInstance();
         private static SingletonInstance instance;
 
         public static SingletonInstance GetInstance()

@@ -21,7 +21,9 @@
 
             Console.WriteLine(new string('-', 50));
 
-            //Second implementation usnig static constructor demo
+            // Second implementation usnig static constructor demo
+            // Keep in mind the the cliet can create instances of InnerLogger
+            var logger = new Logger.InnerLogger();
             Logger.Instance.Log(PrintMessages.SuccesfullyImpemented);
         }
 
