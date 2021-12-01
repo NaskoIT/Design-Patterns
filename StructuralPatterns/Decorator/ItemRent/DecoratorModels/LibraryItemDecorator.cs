@@ -3,9 +3,9 @@
     /// <summary>
     ///  The 'Decorator' abstract class
     /// </summary>
-    internal abstract class ItemDecorator : LibraryItem
+    internal abstract class LibraryItemDecorator : LibraryItem
     {
-        protected ItemDecorator(LibraryItem libraryItem)
+        protected LibraryItemDecorator(LibraryItem libraryItem)
         {
             LibraryItem = libraryItem;
         }

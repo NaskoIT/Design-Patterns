@@ -10,18 +10,18 @@
     {
         public static void Main()
         {
-            var document = new List<Manuscript>();
+            var manuscripts = new List<Manuscript>();
             var fancyFormatter = new FancyFormatter();
             var standardFormatter = new StandardFormatter();
 
             var faq = new FAQ(standardFormatter)
             {
-                Title = Constants.FaqTitle
+                Title = Constants.Title
             };
 
-            faq.Questions.Add(Constants.FaqQuestionOne, Constants.FaqQuestionOneAnswer);
-            faq.Questions.Add(Constants.FaqQuestionTwo, Constants.FaqQuestionTwoAnswer);
-            document.Add(faq);
+            faq.Questions.Add(Constants.QuestionOne, Constants.QuestionOneAnswer);
+            faq.Questions.Add(Constants.QuestionTwo, Constants.QuestionTwoAnswer);
+            manuscripts.Add(faq);
 
             var book = new Book(fancyFormatter)
             {
@@ -30,11 +30,11 @@
                 Text = Constants.BookText,
             };
 
-            document.Add(book);
+            manuscripts.Add(book);
 
-            foreach (var doc in document)
+            foreach (var page in manuscripts)
             {
-                doc.Print();
+                page.Print();
             }
         }
     }

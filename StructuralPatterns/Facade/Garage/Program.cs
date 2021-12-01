@@ -4,7 +4,7 @@
     {
         public static void Main()
         {
-            GarageFacade carFacade = new GarageFacade();
+            GarageFacade carFacade = new();
             carFacade.CreateCompleteCar();
         }
     }

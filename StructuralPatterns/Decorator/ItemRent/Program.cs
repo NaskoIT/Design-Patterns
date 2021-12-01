@@ -18,7 +18,7 @@
 
             Console.WriteLine(PrintMessages.MakingBorrowable, nameof(video).ToLower());
 
-            var borrowableVideo = new Borrowable(video);
+            var borrowableVideo = new BorrowableLibraryItem(video);
             borrowableVideo.BorrowItem(Constants.FirstTestUser);
             borrowableVideo.BorrowItem(Constants.SecondTestUser);
 
