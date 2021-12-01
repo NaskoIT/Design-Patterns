@@ -11,12 +11,12 @@
     {
         protected Priority level;
 
-        public Employee successor;
-
         public void SetSuccessor(Employee successor)
         {
-            this.successor = successor;
+            this.Successor = successor;
         }
+
+        public Employee Successor { get; private set; }
 
         public void ProcessComplaint(Complaint complaint)
         {
@@ -25,9 +25,9 @@
                 Respond(complaint);
             }
 
-            else if (this.successor != null)
+            else if (this.Successor != null)
             {
-                this.successor.ProcessComplaint(complaint);
+                this.Successor.ProcessComplaint(complaint);
             }
 
             else
@@ -38,7 +38,7 @@
 
         protected virtual void Respond(Complaint complaint)
         {
-            Console.WriteLine("Mr/Mrs {0}, your complaint will be handled by the {1}", complaint.CustomerName, this.GetType().Name.ToString());
+            Console.WriteLine("Mr/Mrs {0}, your complaint will be handled by the {1}", complaint.CuromerName, this.GetType().Name.ToString());
         }
     }
 }

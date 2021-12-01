@@ -10,10 +10,12 @@
     {
         public static void Main()
         {
-            Complaint complaint = new Complaint();
-            Console.WriteLine(PrintMessages.CompaintForm);
+            Complaint complaint = new();
+            Console.WriteLine(PrintMessages.ComplaintForm);
+
             Console.WriteLine(PrintMessages.CustomerName);
-            complaint.CustomerName = Console.ReadLine();
+            complaint.CuromerName = Console.ReadLine();
+
             Console.Write(PrintMessages.EnterPriority);
             complaint.Priority = (Priority)int.Parse(Console.ReadLine());
 

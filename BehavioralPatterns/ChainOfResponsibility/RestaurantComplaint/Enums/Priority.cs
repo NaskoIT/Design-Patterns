@@ -4,6 +4,7 @@
     {
         Low = 1,
         Medium,
-        High
+        High,
+        Crutial,
     }
 }
