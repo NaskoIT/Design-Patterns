@@ -9,7 +9,7 @@
     /// </summary>
     public class ColorManager
     {
-        private readonly Dictionary<string, ColorPrototype> colors = new Dictionary<string, ColorPrototype>();
+        private readonly Dictionary<string, ColorPrototype> colors = new();
 
         public ColorPrototype this[string key]
         {

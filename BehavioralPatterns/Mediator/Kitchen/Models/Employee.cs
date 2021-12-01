@@ -15,7 +15,7 @@
             this.Mediator = mediator;
         }
 
-        public string Name { get; set; }
+        public string Name { get; private set; }
 
         public IKitchenMediator Mediator { get; set; }
 

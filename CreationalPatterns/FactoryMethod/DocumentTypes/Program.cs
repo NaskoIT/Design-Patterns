@@ -19,6 +19,7 @@
             {
                 var documentTypeName = document.GetType().Name;
                 Console.WriteLine(documentTypeName);
+
                 for (int i = 0; i < document.Pages.Count; i++)
                 {
                     var pageTypeName = document.Pages[i].GetType().Name;

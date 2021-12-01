@@ -10,21 +10,13 @@
     {
         public static Pizza CreatePizza(PizzaType pizzaType)
         {
-            switch (pizzaType)
+            return pizzaType switch
             {
-                case PizzaType.Cheese:
-                    return new CheesePizza();
-
-                case PizzaType.Pepperoni:
-                    return new PepperoniPizza();
-
-                case PizzaType.Hawai:
-                    return new HawaiPizza();
-
-                default:
-                    return null;
-
-            }
+                PizzaType.Cheese => new CheesePizza(),
+                PizzaType.Pepperoni => new PepperoniPizza(),
+                PizzaType.Hawai => new HawaiPizza(),
+                _ => null,
+            };
         }
     }
 }

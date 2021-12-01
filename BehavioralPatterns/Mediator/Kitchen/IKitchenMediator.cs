@@ -1,6 +1,7 @@
 ﻿namespace Kitchen
 {
     using Kitchen.Models;
+
     /// <summary>
     /// The 'Mediator' interface
     /// </summary>

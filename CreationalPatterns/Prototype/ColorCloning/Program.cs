@@ -9,10 +9,10 @@
     {
         public static void Main()
         {
-            Color color = new Color(10, 20, 30);
+            Color color = new(10, 20, 30);
             Color otherColor = color.Clone() as Color;
 
-            ColorManager colorManager = new ColorManager();
+            ColorManager colorManager = new();
 
             colorManager[Constants.ColorRed] = new Color(255, 0, 0);
             colorManager[Constants.ColorGreen] = new Color(0, 255, 0);

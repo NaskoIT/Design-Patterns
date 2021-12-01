@@ -9,8 +9,7 @@
     /// </summary>
     public class KitchenMediator : IKitchenMediator
     {
-        private readonly Dictionary<string, Employee> employees = 
-            new Dictionary<string, Employee>();
+        private readonly Dictionary<string, Employee> employees = new();
 
         public void Register(Employee employee)
         {
@@ -18,15 +17,15 @@
             {
                 this.employees[employee.Name] = employee;
             }
+
             employee.Mediator = this;
         }
 
         public void SendMessage(string from, string to, string message)
         {
-            Employee employee = this.employees[to];
-
-            if (employee != null)
+            if (employees.ContainsKey(to))
             {
+                Employee employee = this.employees[to];
                 employee.Receive(from, message);
             }
         }

@@ -11,7 +11,7 @@
             Participant peter = new ConcreteParticipant(Constants.DisplayPeter);
             Participant nasko = new ConcreteParticipant(Constants.DisplayAtanas);
 
-            ChatRoom chatRoom = new ChatRoom();
+            ChatRoom chatRoom = new();
             chatRoom.Register(john);
             chatRoom.Register(peter);
             chatRoom.Register(nasko);
