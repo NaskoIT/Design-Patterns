@@ -7,12 +7,12 @@
     /// <summary>
     /// The 'ConcreteIterator' class
     /// </summary>
-    public class ConcreteIterator<T> : IIterator<T>
+    public class SequenceIterator<T> : IIterator<T>
     {
-        private readonly ConcreteAggregate<T> aggregate;
+        private readonly Sequence<T> aggregate;
         private int index;
 
-        public ConcreteIterator(ConcreteAggregate<T> aggregate)
+        public SequenceIterator(Sequence<T> aggregate)
         {
             this.aggregate = aggregate;
             this.index = -1;

@@ -5,15 +5,15 @@
     using SequenceNumbers.Contracts;
 
     /// <summary>
-    /// The 'ConcreteAggregate' class
+    /// The 'ConcreteCollection' class
     /// </summary>
-    public class ConcreteAggregate<T> : IAggregate<T>
+    public class Sequence<T> : ISequence<T>
     {
-        private readonly List<T> items = new List<T>();
+        private readonly List<T> items = new();
 
         public IIterator<T> CreateIterator()
         {
-            return new ConcreteIterator<T>(this);
+            return new SequenceIterator<T>(this);
         }
 
         public T this[int index]

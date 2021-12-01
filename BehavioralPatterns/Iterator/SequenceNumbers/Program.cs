@@ -12,7 +12,8 @@
         public static void Main()
         {
             Console.WriteLine(PrintMessages.CustomIterator);
-            ConcreteAggregate<int> collection = new ConcreteAggregate<int>();
+
+            Sequence<int> collection = new();
             collection.Add(1);
             collection.Add(2);
             collection.Add(3);
@@ -29,6 +30,7 @@
             Console.WriteLine(new string('-', 50));
 
             Console.WriteLine(PrintMessages.NETIterator);
+
             IEnumerable<int> elements = new List<int>() { 1, 2, 3, 4, 5 };
 
             IEnumerator<int> enumerator = elements.GetEnumerator();

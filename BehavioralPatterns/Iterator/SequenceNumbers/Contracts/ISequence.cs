@@ -1,9 +1,9 @@
 ﻿namespace SequenceNumbers.Contracts
 {
     /// <summary>
-    /// The 'Aggregate' interface
+    /// The 'Collection' interface
     /// </summary>
-    public interface IAggregate<T>
+    public interface ISequence<T>
     {
         IIterator<T> CreateIterator();
     }
