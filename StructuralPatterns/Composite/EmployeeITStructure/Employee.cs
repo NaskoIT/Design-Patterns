@@ -10,7 +10,7 @@
     /// </summary>
     public class Employee : IEmployee, IEnumerable
     {
-        private readonly Dictionary<int, IEmployee> subordinates = new Dictionary<int, IEmployee>();
+        private readonly Dictionary<int, IEmployee> subordinates = new();
 
         public int Id { get; set; }
 
