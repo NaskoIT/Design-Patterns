@@ -13,7 +13,7 @@
             int firstNum = int.Parse(Console.ReadLine());
             int secondNum = int.Parse(Console.ReadLine());
 
-            MathProxy proxy = new MathProxy();
+            MathProxy proxy = new();
             Console.WriteLine($"{firstNum} + {secondNum} = {proxy.Add(firstNum, secondNum)}");
             Console.WriteLine($"{firstNum} - {secondNum} = {proxy.Sub(firstNum, secondNum)}");
             Console.WriteLine($"{firstNum} * {secondNum} = {proxy.Multiply(firstNum, secondNum)}");

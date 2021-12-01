@@ -7,7 +7,7 @@
     /// </summary>
     public class MathProxy : IMath
     {
-        private readonly Math math = new Math();
+        private readonly Math math = new();
 
         public double Add(double x, double y)
         {
