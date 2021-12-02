@@ -1,7 +1,7 @@
 # Software Design Patterns
 Implementations and demos of the most popular creational, behavioral and structural software design patterns.
 
-## [Creational Design Patterns](https://github.com/NaskoVasilev/Design-Patterns/tree/master/CreationalDesignPatterns)
+## [Creational Design Patterns](https://github.com/NaskoVasilev/Design-Patterns/tree/master/CreationalPatterns)
 - Abstract Factory
 - Builder
 - Factory Method
