@@ -6,7 +6,7 @@
     {
         public static void Main()
         {
-            Account account = new Account("Atanas Vasilev");
+            Account account = new("Atanas Vasilev");
 
             account.Deposit(500);
             account.Deposit(300);

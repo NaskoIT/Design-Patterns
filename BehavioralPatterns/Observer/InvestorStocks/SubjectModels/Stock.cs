@@ -10,7 +10,7 @@
     /// </summary>
     public class Stock
     {
-        private readonly List<IInvestor> investors = new List<IInvestor>();
+        private readonly List<IInvestor> investors = new();
         private double price;
 
         public Stock(string symbol, double price)
@@ -45,7 +45,7 @@
                 investor.Update(this);
             }
 
-            Console.WriteLine(string.Empty);
+            Console.WriteLine();
         }
     }
 }

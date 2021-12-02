@@ -5,7 +5,7 @@
     /// </summary>
     public class GoldState : AccountState
     {
-        public GoldState(AccountState state) 
+        public GoldState(AccountState state)
             : this(state.Balance, state.Account)
         {
         }
