@@ -11,11 +11,11 @@
             Console.WriteLine(PrintMessages.EnterCommands);
             string command = Console.ReadLine().ToUpper();
 
-            Light lamp = new Light();
+            Light lamp = new();
             ICommand switchUp = new FlipUpCommand(lamp);
             ICommand switchDown = new FlipDownCommand(lamp);
 
-            Switch s = new Switch();
+            Switch s = new();
 
             if (command == Constants.DisplayOn)
             {

@@ -7,7 +7,7 @@
     /// </summary>
     public class Switch
     {
-        private readonly List<ICommand> commands = new List<ICommand>();
+        private readonly List<ICommand> commands = new();
 
         public void AddCommand(ICommand command)
         {
