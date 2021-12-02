@@ -20,9 +20,9 @@
 
             foreach (var employee in employees)
             {
-                var empType = employee.GetType().Name;
-                Console.WriteLine(PrintMessages.VacationDays, empType, employee.VacationDays);
-                Console.WriteLine(PrintMessages.Income, empType, employee.Income);
+                var employeeType = employee.GetType().Name;
+                Console.WriteLine(PrintMessages.VacationDays, employeeType, employee.VacationDays);
+                Console.WriteLine(PrintMessages.Income, employeeType, employee.Income);
             }
 
             Console.WriteLine(PrintMessages.VisitingEmployees, nameof(IncomeVisitor), nameof(VacationVisitor));
