@@ -12,7 +12,7 @@
     {
         public override void Sort(IEnumerable<T> collection)
         {
-            Console.WriteLine(PrintMessages.SortAlgorithm, nameof(QuickSort<string>));
+            Console.WriteLine(PrintMessages.SortAlgorithm, nameof(QuickSort<T>));
         }
     }
 }
