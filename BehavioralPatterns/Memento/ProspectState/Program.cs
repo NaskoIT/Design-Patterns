@@ -8,13 +8,15 @@
     {
         public static void Main()
         {
-            SalesProspect prospect = new SalesProspect("Atanas", "088 8999 891", 200);
+            SalesProspect prospect = new("Atanas", "088 8999 891", 200);
             Console.WriteLine(PrintMessages.InitialState);
             Console.WriteLine(prospect);
 
             Console.WriteLine(PrintMessages.SavingState);
-            ProspectMemory prospectMemory = new ProspectMemory();
-            prospectMemory.Memento = prospect.SaveMemento();
+            ProspectMemory prospectMemory = new()
+            {
+                Memento = prospect.SaveMemento()
+            };
 
             Console.WriteLine(PrintMessages.ChangeState);
             prospect.Name = "Nasko";

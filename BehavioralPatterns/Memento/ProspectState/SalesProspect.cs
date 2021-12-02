@@ -18,7 +18,7 @@
 
         public double Budget { get; set; }
 
-        public ProspectMemento SaveMemento() => new ProspectMemento(this.Name, this.Phone, this.Budget);
+        public ProspectMemento SaveMemento() => new(this.Name, this.Phone, this.Budget);
 
         public void RestoreMemento(ProspectMemento memento)
         {
